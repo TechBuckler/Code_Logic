@@ -21,6 +21,9 @@ jobs:
       - name: Run Import Fixer
         run: |
           python fix_imports_simple.py || true
+      - name: Run NL Summary Generator
+        run: |
+          python run_nl_explain_and_fix.py
       - name: Echo Hello
         run: echo "If you see this, Actions is working."
       - name: Echo Hello
