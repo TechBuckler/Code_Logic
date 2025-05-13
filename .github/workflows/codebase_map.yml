@@ -10,6 +10,9 @@ jobs:
   codebase-map:
     runs-on: ubuntu-22.04
     steps:
+      - name: Echo Test
+        run: echo "Hello from Codebase Mapping and Validation!"
+
       - name: Checkout repository
         uses: actions/checkout@v3.5.3
 
