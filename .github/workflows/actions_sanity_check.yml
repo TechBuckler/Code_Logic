@@ -8,5 +8,7 @@ jobs:
   actions-sanity:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3.5.3
       - name: Echo Hello
         run: echo "If you see this, Actions is working."
