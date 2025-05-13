@@ -90,6 +90,7 @@ def get_python_files(directory):
         for file in files:
             if file.endswith(".py"):
                 python_files.append(os.path.join(root, file))
+
     return python_files
 
 
