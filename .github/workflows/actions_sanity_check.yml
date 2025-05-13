@@ -30,6 +30,17 @@ jobs:
             echo "❌ Mapping failed: Syntax errors or missing docstrings detected!" && exit 1
           fi
           echo "✅ All files mapped and documented."
+      - name: Run NL Summary Generator
+        run: |
+          python run_nl_explain_and_fix.py
+      - name: Check for unmapped files or errors
+        run: |
+          if grep -q "Error: invalid syntax" all_module_nl_summaries.txt || grep -q "No docstring found" all_module_nl_summaries.txt; then
+            echo "❌ Mapping failed: Syntax errors or missing docstrings detected!" && exit 1
+          fi
+          echo "✅ All files mapped and documented."
+      - name: Echo Hello
+        run: echo "If you see this, Actions is working."
       - name: Upload Codebase Map Artifact
         uses: actions/upload-artifact@v3.1.3
         with:
