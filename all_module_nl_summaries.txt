@@ -1,0 +1,1669 @@
+C:\Users\timge\Downloads\code_logic_tool_full\compare_code_versions.py
+Compare Code Versions
+
+This script compares the validation results of original and optimized code
+to see if code transformations affect AI processing.
+
+C:\Users\timge\Downloads\code_logic_tool_full\fix_imports_simple.py
+Simple Import Fixer
+
+This script creates the necessary modules in sys.modules to fix import issues.
+
+C:\Users\timge\Downloads\code_logic_tool_full\run_nl_explain_all.py
+Run NL docstring explanation on all modules in the project, backup, and legacy. Uses the project import fixer for robust imports from any directory. Outputs NL summaries to a specified file for documentation and mapping.
+
+C:\Users\timge\Downloads\code_logic_tool_full\run_nl_explain_and_fix.py
+Combined Import Fixer and NL Explanation Script
+
+This script merges the import fixing and NL docstring explanation pipeline. It ensures all imports are fixed, then generates NL summaries for all modules.
+
+C:\Users\timge\Downloads\code_logic_tool_full\run_with_fixes.py
+Run With Fixes
+
+A script that applies all necessary fixes and then runs the reorganization script.
+
+C:\Users\timge\Downloads\code_logic_tool_full\test_ai_code_validation.py
+Test AI Code Validation
+
+This script tests how code transformations affect AI processing by validating
+code before and after optimization using the Shadow validation system.
+
+C:\Users\timge\Downloads\code_logic_tool_full\test_code_transformations.py
+Test Code Transformations
+
+This script tests how different code transformations affect validation results
+using the Enhanced Shadow validation system.
+
+C:\Users\timge\Downloads\code_logic_tool_full\test_full_pipeline.py
+Test Full Validation Pipeline
+
+This script tests the complete validation pipeline, including complexity analysis,
+to verify that all components are working together correctly.
+
+C:\Users\timge\Downloads\code_logic_tool_full\test_specific_file.py
+Test Specific File
+
+This script tests how code transformations affect validation results
+for a specific file in the codebase.
+
+C:\Users\timge\Downloads\code_logic_tool_full\test_validation.py
+Test Validation Integration
+
+This script tests the integration of the Shadow validation system with the module system.
+
+C:\Users\timge\Downloads\code_logic_tool_full\validate_with_shadow.py
+Validate With Shadow
+
+This script integrates the Shadow validation system with the existing module system
+and provides a simple command-line interface for validating Python code.
+
+C:\Users\timge\Downloads\code_logic_tool_full\validate_with_shadow_enhanced.py
+Enhanced Shadow Validation System Integration
+
+This script provides a command-line interface to the enhanced Shadow validation system,
+integrating rule-based validation, embeddings, and AI models for comprehensive code validation.
+
+C:\Users\timge\Downloads\code_logic_tool_full\__init__.py
+code_logic_tool_full package.
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\advanced.py
+UI Renderers Part 2 - Additional module-specific UI rendering functions
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\ai_suggester.py
+AI Suggester Utility
+
+This module provides functions for suggesting improvements or completions using AI models.
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\analysis_core_module.py
+Analysis Core Module - Hierarchical version
+
+This module serves as the core for all analysis-related functionality,
+including code parsing, AST exploration, and logic analysis.
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\analysis_core_module_render_ui.py
+Analysis Core Module UI Renderer
+
+This module provides a Streamlit-based UI for hierarchical code analysis and visualization.
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\ast_explorer.py
+AST Explorer Utility
+
+This module provides tools for exploring and visualizing Python ASTs for analysis and transformation.
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\ast_parser_module.py
+AST Parser Module
+
+This module defines an AST parser for extracting function definitions and code structure from Python source files.
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\background.py
+Background System Utility
+
+This module manages background task execution and system resource monitoring for the codebase.
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\base.py
+UI Renderers - Module-specific UI rendering functions
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\bootstrap.py
+Bootstrap - Self-generating architecture system
+
+This module analyzes the existing codebase and transforms it into the new
+hierarchical architecture. It serves as the entry point for the self-bootstrapping
+process.
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\circular_dependency_breaker.py
+Circular Dependency Breaker
+
+Breaks circular dependencies by pre-loading all modules in the directory structure.
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\cleanup_after_reorganize.py
+Cleanup After Reorganization
+
+This script:
+1. Tests imports to ensure everything works
+2. Fixes any remaining import issues
+3.
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\cleanup_critical_issues.py
+Cleanup Critical Issues
+
+This script addresses the most critical issues identified in the codebase analysis:
+1. Unused imports (80.4% of all issues)
+2. Code complexity (9.4% of all issues)
+3. Error handling (4.2% of all issues)
+4.
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\cleanup_critical_issues_1.py
+Cleanup Critical Issues
+
+This script addresses the most critical issues identified in the codebase analysis:
+1. Unused imports (80.4% of all issues)
+2. Code complexity (9.4% of all issues)
+3. Error handling (4.2% of all issues)
+4.
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\cleanup_critical_issues_10.py
+cleanup_critical_issues_10.py - Part 10 of 14 from cleanup_critical_issues.py
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\cleanup_critical_issues_11.py
+cleanup_critical_issues_11.py - Part 11 of 14 from cleanup_critical_issues.py
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\cleanup_critical_issues_12.py
+cleanup_critical_issues_12.py - Part 12 of 14 from cleanup_critical_issues.py
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\cleanup_critical_issues_13.py
+cleanup_critical_issues_13.py - Part 13 of 14 from cleanup_critical_issues.py
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\cleanup_critical_issues_14.py
+cleanup_critical_issues_14.py - Part 14 of 14 from cleanup_critical_issues.py
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\cleanup_critical_issues_2.py
+cleanup_critical_issues_2.py - Part 2 of 14 from cleanup_critical_issues.py
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\cleanup_critical_issues_3.py
+cleanup_critical_issues_3.py - Part 3 of 14 from cleanup_critical_issues.py
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\cleanup_critical_issues_4.py
+cleanup_critical_issues_4.py - Part 4 of 14 from cleanup_critical_issues.py
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\cleanup_critical_issues_5.py
+cleanup_critical_issues_5.py - Part 5 of 14 from cleanup_critical_issues.py
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\cleanup_critical_issues_6.py
+cleanup_critical_issues_6.py - Part 6 of 14 from cleanup_critical_issues.py
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\cleanup_critical_issues_7.py
+cleanup_critical_issues_7.py - Part 7 of 14 from cleanup_critical_issues.py
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\cleanup_critical_issues_8.py
+cleanup_critical_issues_8.py - Part 8 of 14 from cleanup_critical_issues.py
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\cleanup_critical_issues_9.py
+cleanup_critical_issues_9.py - Part 9 of 14 from cleanup_critical_issues.py
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\cleanup_files.py
+Cleanup script to remove redundant documentation files from the Logic Tool project. These files have been consolidated into plan_1.md and README.md.
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\cleanup_final.py
+Final cleanup script to remove unnecessary files and combine duplicates.
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\cleanup_top_level.py
+Cleanup Top Level
+
+This script cleans up the top-level directory by:
+1. Moving working scripts to appropriate directories
+2. Removing redundant or failed scripts
+3. Keeping only the essential files at the top level
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\clustering.py
+Clustering Module
+
+Provides functions for clustering files based on their similarity
+and relationships to create a balanced directory structure.
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\codebase_scanner.py
+Codebase Scanner
+
+This script scans the entire codebase and provides a comprehensive report
+of the directory structure, file types, and code organization.
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\code_analysis_module.py
+Code Analysis Module
+
+This module provides code analysis functionality for the refactoring system. It serves as a compatibility module during the transition to the new directory structure.
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\code_analyzer.py
+Code Analyzer Module
+
+Provides functions for analyzing Python code files to extract
+dependencies, complexity metrics, and semantic information.
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\code_mapper.py
+Code Mapper Module
+
+This module provides tools for analyzing and mapping the codebase structure,
+dependencies, and resource usage patterns.
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\code_mapper_analyze_resource_profile.py
+Error: unexpected indent (<unknown>, line 20)
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\common_helpers.py
+Common Helper Functions
+
+This module contains common utility functions extracted from repeated patterns
+in the codebase.
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\complete_cleanup.py
+Complete Cleanup
+
+This script handles the final remaining items that need to be cleaned up.
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\core.py
+Error: expected an indented block after 'try' statement on line 24 (<unknown>, line 25)
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\decide_optimized.py
+No docstring found.
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\demo_hierarchical.py
+Demo of the Hierarchical Module System
+
+This script demonstrates the hierarchical module system by creating a simple
+hierarchy of modules and showing how they interact.
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\document_codebase.py
+Error: expected an indented block after 'try' statement on line 26 (<unknown>, line 28)
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\dynamic_organizer.py
+Dynamic Directory Organizer
+
+This script analyzes the codebase and automatically determines the optimal
+directory structure based on file relationships, dependencies, and complexity.
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\engine.py
+No docstring found.
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\explorer.py
+No docstring found.
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\exporter.py
+No docstring found.
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\exporter_module.py
+No docstring found.
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\exporter_optimized.py
+No docstring found.
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\extract_functions_optimized.py
+No docstring found.
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\file_scanner.py
+Simple File Scanner
+
+This script scans the codebase and prints each file as it's found,
+without storing everything in memory.
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\file_splitter.py
+
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\file_utils.py
+File Utilities for the Logic Tool
+
+This module provides utility functions for working with files,
+including copying, transforming, and loading Python modules.
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\finalize_reorganization.py
+Finalize Reorganization
+
+This script finalizes the codebase reorganization by:
+1. Removing redundant *_split directories
+2. Moving any remaining important files to the new structure
+3. Cleaning up duplicate files
+4.
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\final_cleanup.py
+Final Cleanup
+
+This script handles the final cleanup of files and folders that don't fit
+the established directory structure.
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\find_duplicates.py
+Duplicate Functionality Finder
+
+This script identifies duplicate functionality across the codebase
+and suggests helper files to consolidate them.
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\fix_all_imports.py
+Fix All Imports
+
+This script systematically identifies and fixes all import issues in the codebase. It:
+1. Scans for all import statements in the codebase
+2. Identifies missing modules
+3. Creates compatibility modules
+4.
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\fix_imports.py
+Fix import issues after codebase reorganization. This script will:
+1. Create a proper import utility system
+2. Update import statements in all Python files
+3. Create necessary __init__.py files
+4. Test that all modules can be imported
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\fix_imports_factory.py
+Import Resolver Factory
+
+This script systematically fixes import issues in the codebase using the ModuleFactory pattern. It can:
+1. Scan all Python files for import issues
+2. Generate compatibility modules for missing modules
+3.
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\fix_minimal.py
+Minimal Import Fixer
+
+This script adds the HierarchicalModule to sys.modules directly.
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\fix_module_imports.py
+Fix Module Imports
+
+A simple, reusable tool for fixing specific module import issues. This script can be used to create placeholder modules for missing imports,
+making it easy to fix import issues in a TDD (Test-Driven Development) approach.
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\fix_runtime_optimization.py
+Fix Runtime Optimization Module
+
+This script creates the RuntimeOptimizationModule in all necessary locations
+to fix import issues across the codebase.
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\fractal_organizer.py
+Fractal Code Organizer
+
+This module enforces extreme modularity by recursively breaking down code into
+smaller and smaller components, while providing mechanisms to navigate and
+"bubble up" the structure when needed.
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\general.py
+No docstring found.
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\graph_builder.py
+No docstring found.
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\graph_builder_module.py
+No docstring found.
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\hierarchical_app.py
+Hierarchical Logic Tool Application
+
+This is the main entry point for the Logic Tool using the hierarchical module system. It sets up the core modules and handles the main UI rendering.
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\hierarchical_core.py
+Hierarchical Core - Foundation for the self-bootstrapping architecture
+
+This module provides the core components for a hierarchical, modular system
+that can dynamically organize, load, and manage modules at multiple levels
+of abstraction.
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\hierarchical_core_initialize_all.py
+Error: unexpected indent (<unknown>, line 23)
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\hierarchical_core___init__.py
+hierarchical_core package.
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\hierarchical_main.py
+Hierarchical Logic Tool - Main Application
+
+This is the main entry point for the Logic Tool using the hierarchical module architecture. It sets up the core modules and handles the main UI rendering.
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\hierarchical_module.py
+Compatibility module for hierarchical_module. This file redirects imports to the new location in modules/standard/hierarchical_module.py
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\hierarchical_module_fix.py
+Hierarchical Module Fix
+
+This module provides a fixed version of the HierarchicalModule class that works
+with the new directory structure.
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\implement_reorganization.py
+Codebase Reorganization Implementation
+
+This script implements the reorganization plan for the codebase,
+creating the directory structure and moving files to their appropriate locations.
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\imports.py
+Centralized imports for the Logic Tool system. This file ensures all components can find their dependencies.
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\import_utils.py
+Import Utility Module
+
+Provides a centralized system for handling imports across the codebase,
+supporting both the old and new directory structures during transition.
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\improved_explorer.py
+Improved Module Explorer Script
+
+This script provides a cleaner view of all modules in the project.
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\ir_generator_module.py
+No docstring found.
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\ir_model.py
+No docstring found.
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\json_utils.py
+JSON utility functions for common JSON operations. This module provides standardized functions for JSON parsing, serialization,
+and manipulation, reducing code duplication across the codebase.
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\list_structure.py
+List Directory Structure
+
+This script displays the directory structure in a tree-like format.
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\logic_tool.py
+Error: unexpected indent (<unknown>, line 22)
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\minimal_fix.py
+Minimal Fix for Import Issues
+
+A truly minimal script that fixes the HierarchicalModule import issue.
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\model.py
+No docstring found.
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\module_explorer_module.py
+Module Explorer Module
+
+This module allows exploring, editing, and running other modules in the system. It provides a unified interface for inspecting code, running tools, and executing
+the entire pipeline or specific components.
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\module_factory.py
+Module Factory System
+
+This module provides a factory pattern for dynamically creating and managing modules
+during the codebase reorganization.
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\navigator.py
+Shadow Tree Generator
+
+Creates a natural language shadow tree that mirrors the code structure,
+allowing intuitive navigation through the fractal codebase.
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\new_main.py
+New Main Application - Entry point for the Logic Tool with hierarchical architecture
+
+This module serves as the main entry point for the Logic Tool, using the new
+hierarchical architecture based on simple_hierarchical_core.py.
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\new_unified.py
+New Unified UI - Redesigned UI with improved architecture
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\new_unified_ui.py
+New Unified UI - Redesigned UI with improved architecture
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\operations.py
+Runtime Utilities for the Logic Tool System. This file provides functions that bridge the logic analysis and runtime optimization components.
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\optimization_core_module.py
+Optimization Core Module - Hierarchical version
+
+This module serves as the core for all optimization-related functionality,
+including logic optimization, formal verification, and performance analysis.
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\optimization_testbed_module.py
+
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\optimization_testbed_module___init__.py
+Error: unexpected indent (<unknown>, line 31)
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\optimizer.py
+No docstring found.
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\optimizer_module.py
+No docstring found.
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\organizer.py
+Fractal Code Organizer
+
+This module enforces extreme modularity by recursively breaking down code into
+smaller and smaller components, while providing mechanisms to navigate and
+"bubble up" the structure when needed.
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\path_utils.py
+Path utility functions for common path operations. This module provides standardized functions for path manipulation and
+directory handling, reducing code duplication across the codebase.
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\pipeline.py
+Pipeline Functions
+
+This module contains LINQ-like pipeline functions for data processing.
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\project_organizer_module.py
+Project Organizer Module
+
+This module handles project organization, file naming conventions, and project structure. It can analyze the current project structure, suggest improvements, and apply changes.
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\proof_engine.py
+No docstring found.
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\proof_engine_module.py
+No docstring found.
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\proof_engine_run_default_proof.py
+No docstring found.
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\quick_verify.py
+Quick Verification Script
+
+This script performs a quick verification of the codebase by:
+1. Testing imports of key modules
+2. Running basic functionality tests
+3.
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\refactor_modules.py
+Module Refactoring Script
+
+This script refactors all modules according to the reorganization plan,
+moving files to their new locations and updating imports.
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\reorganize_codebase.py
+Codebase Reorganization Tool
+
+This script reorganizes the codebase according to the plan outlined in
+reorganization_plan.md, using the existing fractal organizer and resource
+splitter tools.
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\resource_splitter.py
+Resource-Oriented File Splitter
+
+This script splits Python files into resource-oriented components and
+organizes them in a logical directory structure.
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\runtime.py
+Error: unmatched ')' (<unknown>, line 35)
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\runtime_optimization.py
+Error: unmatched ')' (<unknown>, line 35)
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\runtime_optimization_module.py
+Runtime Optimization Module (Standard)
+
+This module provides compatibility for runtime optimization functionality
+during the transition to the new directory structure.
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\runtime_utils.py
+Runtime Utilities for the Logic Tool System. This file provides functions that bridge the logic analysis and runtime optimization components.
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\run_app.py
+Run the Logic Tool UI with safe execution
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\run_bootstrap.py
+Run the bootstrap process to generate the new hierarchical architecture
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\run_cli.py
+Error: unexpected indent (<unknown>, line 22)
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\run_complete.py
+Run the Complete Logic Tool System with Hierarchical Architecture
+
+This script runs the complete Logic Tool system with the hierarchical architecture,
+including analysis, optimization, and verification modules.
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\run_complete_system.py
+Run the Complete Logic Tool System with Hierarchical Architecture
+
+This script runs the complete Logic Tool system with the hierarchical architecture,
+including analysis, optimization, and verification modules.
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\run_explorer.py
+Module Explorer Script
+
+This script runs the module explorer to list all modules in the project.
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\run_hierarchical.py
+Run the Logic Tool with the new hierarchical architecture
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\run_new_app.py
+Run the new Logic Tool UI with improved architecture
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\run_new_architecture.py
+Run the new hierarchical architecture for the Logic Tool
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\run_ui.py
+Run the Logic Tool UI with safe execution
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\safe_eval_optimized.py
+Error: expected an indented block after function definition on line 1 (<unknown>, line 2)
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\safe_runner.py
+Safe Run Wrapper for Logic Tool
+
+This script provides a robust wrapper around the Logic Tool CLI commands,
+ensuring proper process termination and error handling.
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\scan_codebase.py
+Codebase Scanner
+
+This script scans the entire codebase and provides a comprehensive report
+of the directory structure, file types, and code organization.
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\scan_files.py
+Simple File Scanner
+
+This script scans the codebase and prints each file as it's found,
+without storing everything in memory.
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\shadow_tree.py
+Shadow Tree Generator
+
+Creates a natural language shadow tree that mirrors the code structure,
+allowing intuitive navigation through the fractal codebase.
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\shadow_tree_module.py
+Error: unexpected indent (<unknown>, line 26)
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\simple.py
+No docstring found.
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\simple_cleanup.py
+Simple Cleanup Script
+
+This script:
+1. Creates any missing __init__.py files
+2. Removes original files that were copied to new locations
+
+Very simple, direct approach to finalize the reorganization.
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\simple_hierarchical_core___init__.py
+simple_hierarchical_core package.
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\simple_shadow_tree.py
+No docstring found.
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\smart_splitter.py
+Smart File Splitter
+
+This script provides enhanced file splitting capabilities with a focus on:
+1. Resource-oriented splitting
+2. Logical directory organization
+3. Reversible operations with manifests
+4. Dependency management
+5. Import resolution
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\specialized.py
+UI Renderers Part 3 - Final module-specific UI rendering functions
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\splitter.py
+Resource-Oriented File Splitter
+
+This script splits Python files into resource-oriented components and
+organizes them in a logical directory structure.
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\split_standard_modules.py
+Split Standard Modules
+
+This script splits the modules/standard directory into more specific categories
+to maintain a balanced directory structure.
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\starter_pipeline.py
+Error: unexpected indent (<unknown>, line 12)
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\string_utils.py
+String utility functions for common string operations. This module provides standardized functions for string processing,
+cleaning, and manipulation, reducing code duplication across the codebase.
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\structure_analyzer.py
+Check Directory Structure
+
+This script checks the current directory structure and reports on the files
+in each top-level directory.
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\structure_optimizer.py
+Structure Optimizer Module
+
+Optimizes the directory structure based on file clusters and analysis
+to create a balanced, fractal organization.
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\summarize_codebase.py
+Error: expected an indented block after 'try' statement on line 26 (<unknown>, line 27)
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\system.py
+No docstring found.
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\test_advanced.py
+Error: expected an indented block after 'try' statement on line 22 (<unknown>, line 23)
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\test_all_imports.py
+Test All Imports
+
+A comprehensive script to test importing all modules in the codebase. It identifies circular dependencies and other import issues.
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\test_analysis_core_module.py
+Analysis Core Module - Hierarchical version
+
+This module serves as the core for all analysis-related functionality,
+including code parsing, AST exploration, and logic analysis. Auto-generated test cases for modules.standard.analysis_core_module
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\test_analyze_directory_structure.py
+Error: expected an indented block after 'try' statement on line 23 (<unknown>, line 24)
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\test_ast_parser_module.py
+Hierarchical AST Parser Module
+
+This module extends the base AST parser module with hierarchical capabilities. It parses Python code into an Abstract Syntax Tree (AST) for further analysis.
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\test_background.py
+Tests for modules.background
+
+Auto-generated test cases for modules.background
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\test_background_system.py
+Tests for utils.system.background_system
+
+Auto-generated test cases for utils.system.background_system
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\test_balance_codebase.py
+Error: expected an indented block after 'try' statement on line 28 (<unknown>, line 29)
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\test_base.py
+Error: expected an indented block after 'try' statement on line 22 (<unknown>, line 23)
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\test_bootstrap.py
+Bootstrap - Self-generating architecture system
+
+This module analyzes the existing codebase and transforms it into the new
+hierarchical architecture. It serves as the entry point for the self-bootstrapping
+process.
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\test_cleanup_critical_issues_1.py
+Error: expected an indented block after 'try' statement on line 32 (<unknown>, line 33)
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\test_cleanup_critical_issues_10.py
+Error: expected an indented block after 'try' statement on line 22 (<unknown>, line 23)
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\test_cleanup_critical_issues_11.py
+cleanup_critical_issues_11.py - Part 11 of 14 from cleanup_critical_issues.py
+
+Auto-generated test cases for modules.resource.cleanup_critical_issues.cleanup_critical_issues_11
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\test_cleanup_critical_issues_12.py
+cleanup_critical_issues_12.py - Part 12 of 14 from cleanup_critical_issues.py
+
+Auto-generated test cases for modules.resource.cleanup_critical_issues.cleanup_critical_issues_12
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\test_cleanup_critical_issues_13.py
+cleanup_critical_issues_13.py - Part 13 of 14 from cleanup_critical_issues.py
+
+Auto-generated test cases for modules.resource.cleanup_critical_issues.cleanup_critical_issues_13
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\test_cleanup_critical_issues_14.py
+cleanup_critical_issues_14.py - Part 14 of 14 from cleanup_critical_issues.py
+
+Auto-generated test cases for modules.resource.cleanup_critical_issues.cleanup_critical_issues_14
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\test_cleanup_critical_issues_2.py
+Error: expected an indented block after 'try' statement on line 22 (<unknown>, line 23)
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\test_cleanup_critical_issues_3.py
+Error: expected an indented block after 'try' statement on line 22 (<unknown>, line 23)
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\test_cleanup_critical_issues_4.py
+Error: expected an indented block after 'try' statement on line 22 (<unknown>, line 23)
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\test_cleanup_critical_issues_5.py
+Error: expected an indented block after 'try' statement on line 22 (<unknown>, line 23)
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\test_cleanup_critical_issues_6.py
+Error: expected an indented block after 'try' statement on line 22 (<unknown>, line 23)
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\test_cleanup_critical_issues_7.py
+Error: expected an indented block after 'try' statement on line 22 (<unknown>, line 23)
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\test_cleanup_critical_issues_8.py
+Error: expected an indented block after 'try' statement on line 22 (<unknown>, line 23)
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\test_cleanup_critical_issues_9.py
+Error: expected an indented block after 'try' statement on line 22 (<unknown>, line 23)
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\test_cleanup_files.py
+Error: expected an indented block after 'try' statement on line 23 (<unknown>, line 24)
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\test_cleanup_final.py
+Error: expected an indented block after 'try' statement on line 22 (<unknown>, line 23)
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\test_clustering.py
+Error: expected an indented block after 'try' statement on line 25 (<unknown>, line 26)
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\test_codebase_scanner.py
+Codebase Scanner
+
+This script scans the entire codebase and provides a comprehensive report
+of the directory structure, file types, and code organization. Auto-generated test cases for tools.testing.codebase_scanner
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\test_code_analyzer.py
+Error: expected an indented block after 'try' statement on line 25 (<unknown>, line 26)
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\test_code_mapper.py
+Code Mapper Module
+
+This module provides tools for analyzing and mapping the codebase structure,
+dependencies, and resource usage patterns.
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\test_complete_cleanup.py
+Error: expected an indented block after 'try' statement on line 24 (<unknown>, line 25)
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\test_coverage_generator.py
+Test Coverage Generator
+
+This script provides a comprehensive testing solution that:
+1. Discovers all modules in the codebase
+2. Generates test cases for untested modules
+3. Runs all existing and generated tests
+4. Produces a coverage report
+5.
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\test_decide_optimized.py
+Error: expected an indented block after 'try' statement on line 22 (<unknown>, line 23)
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\test_dynamic_organizer.py
+Dynamic Directory Organizer
+
+This script analyzes the codebase and automatically determines the optimal
+directory structure based on file relationships, dependencies, and complexity.
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\test_engine.py
+Error: expected an indented block after 'try' statement on line 22 (<unknown>, line 23)
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\test_explorer.py
+Error: expected an indented block after 'try' statement on line 22 (<unknown>, line 23)
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\test_exporter.py
+Error: expected an indented block after 'try' statement on line 22 (<unknown>, line 23)
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\test_exporter_module.py
+Tests for modules.standard.exporter_module
+
+Auto-generated test cases for modules.standard.exporter_module
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\test_extract_functions_optimized.py
+Error: expected an indented block after 'try' statement on line 22 (<unknown>, line 23)
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\test_file_scanner.py
+Error: expected an indented block after 'try' statement on line 25 (<unknown>, line 26)
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\test_file_splitter.py
+
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\test_finalize_reorganization.py
+Error: expected an indented block after 'try' statement on line 28 (<unknown>, line 29)
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\test_final_cleanup.py
+Error: expected an indented block after 'try' statement on line 25 (<unknown>, line 26)
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\test_find_duplicates.py
+Error: expected an indented block after 'try' statement on line 25 (<unknown>, line 26)
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\test_fix_imports.py
+Error: expected an indented block after 'try' statement on line 27 (<unknown>, line 28)
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\test_fractal_organizer.py
+Fractal Code Organizer
+
+This module enforces extreme modularity by recursively breaking down code into
+smaller and smaller components, while providing mechanisms to navigate and
+"bubble up" the structure when needed.
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\test_graph_builder.py
+Error: expected an indented block after 'try' statement on line 22 (<unknown>, line 23)
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\test_graph_builder_module.py
+Tests for modules.standard.graph_builder_module
+
+Auto-generated test cases for modules.standard.graph_builder_module
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\test_hierarchical_core___init__.py
+Error: expected an indented block after 'try' statement on line 22 (<unknown>, line 23)
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\test_hierarchical_module.py
+Error: expected an indented block after 'try' statement on line 23 (<unknown>, line 24)
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\test_implement_reorganization.py
+Error: expected an indented block after 'try' statement on line 25 (<unknown>, line 26)
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\test_imports.py
+Error: invalid syntax (<unknown>, line 22)
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\test_import_utils.py
+Error: invalid syntax (<unknown>, line 24)
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\test_improved_explorer.py
+Error: expected an indented block after 'try' statement on line 24 (<unknown>, line 25)
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\test_ir_generator_module.py
+Hierarchical IR Generator Module
+
+This module extends the base IR generator module with hierarchical capabilities. It generates an Intermediate Representation (IR) model from parsed code.
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\test_json_utils.py
+Error: expected an indented block after 'try' statement on line 25 (<unknown>, line 26)
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\test_list_structure.py
+Error: expected an indented block after 'try' statement on line 24 (<unknown>, line 25)
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\test_logic_tool.py
+Error: expected an indented block after 'try' statement on line 22 (<unknown>, line 23)
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\test_model.py
+Error: expected an indented block after 'try' statement on line 22 (<unknown>, line 23)
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\test_module_explorer_module.py
+Module Explorer Module
+
+This module allows exploring, editing, and running other modules in the system. It provides a unified interface for inspecting code, running tools, and executing
+the entire pipeline or specific components.
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\test_module_system.py
+Tests for utils.system.module_system
+
+Auto-generated test cases for utils.system.module_system
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\test_navigator.py
+Shadow Tree Generator
+
+Creates a natural language shadow tree that mirrors the code structure,
+allowing intuitive navigation through the fractal codebase. Auto-generated test cases for tools.shadow_tree.navigator
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\test_new_unified.py
+Error: expected an indented block after 'try' statement on line 22 (<unknown>, line 23)
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\test_operations.py
+Runtime Utilities for the Logic Tool System. This file provides functions that bridge the logic analysis and runtime optimization components. Auto-generated test cases for utils.runtime.operations
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\test_optimization_core_module.py
+Optimization Core Module - Hierarchical version
+
+This module serves as the core for all optimization-related functionality,
+including logic optimization, formal verification, and performance analysis.
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\test_optimizer.py
+Error: expected an indented block after 'try' statement on line 22 (<unknown>, line 23)
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\test_optimizer_module.py
+Tests for modules.standard.optimizer_module
+
+Auto-generated test cases for modules.standard.optimizer_module
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\test_organizer.py
+Fractal Code Organizer
+
+This module enforces extreme modularity by recursively breaking down code into
+smaller and smaller components, while providing mechanisms to navigate and
+"bubble up" the structure when needed.
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\test_organize_codebase.py
+Error: expected an indented block after 'try' statement on line 23 (<unknown>, line 24)
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\test_project_organizer_module.py
+Project Organizer Module
+
+This module handles project organization, file naming conventions, and project structure. It can analyze the current project structure, suggest improvements, and apply changes.
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\test_proof_engine_module.py
+Hierarchical Proof Engine Module
+
+This module extends the base proof engine module with hierarchical capabilities. It uses Z3 to formally verify the correctness of logic functions. Auto-generated test cases for modules.standard.proof_engine_module
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\test_proof_engine_run_default_proof.py
+Error: expected an indented block after 'try' statement on line 22 (<unknown>, line 23)
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\test_refactoring.py
+Test script for the refactoring system. This script tests the basic functionality of the refactoring system after reorganization.
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\test_refactor_analyzer.py
+
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\test_refactor_builder.py
+
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\test_refactor_codebase.py
+Refactor Codebase
+
+This is the main entry point for the codebase refactoring system. It provides a unified
+interface to analyze, split, and rebuild Python code across the entire codebase.
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\test_refactor_modules.py
+Error: expected an indented block after 'try' statement on line 25 (<unknown>, line 26)
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\test_refactor_splitter.py
+
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\test_reorganize_codebase.py
+Error: expected an indented block after 'try' statement on line 26 (<unknown>, line 27)
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\test_resource_splitter.py
+Error: expected an indented block after 'try' statement on line 25 (<unknown>, line 26)
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\test_runtime.py
+Runtime Optimization Module
+This module provides the runtime optimization components that integrate with the logic analysis system. Auto-generated test cases for core.optimization.runtime
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\test_runtime_utils.py
+Runtime Utilities for the Logic Tool System. This file provides functions that bridge the logic analysis and runtime optimization components. Auto-generated test cases for utils.time.runtime_utils
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\test_run_app.py
+Error: expected an indented block after 'try' statement on line 22 (<unknown>, line 23)
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\test_run_bootstrap.py
+Error: expected an indented block after 'try' statement on line 22 (<unknown>, line 23)
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\test_run_cli.py
+Error: expected an indented block after 'try' statement on line 22 (<unknown>, line 23)
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\test_run_complete.py
+Error: expected an indented block after 'try' statement on line 25 (<unknown>, line 26)
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\test_run_complete_system.py
+Error: expected an indented block after 'try' statement on line 25 (<unknown>, line 26)
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\test_run_explorer.py
+Error: expected an indented block after 'try' statement on line 24 (<unknown>, line 25)
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\test_run_hierarchical.py
+Error: expected an indented block after 'try' statement on line 22 (<unknown>, line 23)
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\test_run_new_app.py
+Error: expected an indented block after 'try' statement on line 22 (<unknown>, line 23)
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\test_run_new_architecture.py
+Error: expected an indented block after 'try' statement on line 22 (<unknown>, line 23)
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\test_run_ui.py
+Error: expected an indented block after 'try' statement on line 22 (<unknown>, line 23)
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\test_safe_runner.py
+Error: expected an indented block after 'try' statement on line 25 (<unknown>, line 26)
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\test_scan_codebase.py
+Codebase Scanner
+
+This script scans the entire codebase and provides a comprehensive report
+of the directory structure, file types, and code organization. Auto-generated test cases for tools.scan_codebase
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\test_scan_files.py
+Error: expected an indented block after 'try' statement on line 25 (<unknown>, line 26)
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\test_shadow_tree.py
+Shadow Tree Navigation Test Script
+
+This script tests the bubble up and drill down functionality of the Shadow Tree
+to ensure it works correctly before integrating with the UI.
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\test_shadow_tree_module.py
+Shadow Tree Module
+
+This module integrates the Shadow Tree system with the unified UI,
+allowing for natural language navigation of the codebase. Auto-generated test cases for modules.standard.shadow_tree_module
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\test_simple.py
+Tests for tools.shadow_tree.simple
+
+Auto-generated test cases for tools.shadow_tree.simple
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\test_simple_hierarchical_core.py
+Error: expected an indented block after 'try' statement on line 23 (<unknown>, line 24)
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\test_simple_hierarchical_core___init__.py
+Error: expected an indented block after 'try' statement on line 22 (<unknown>, line 23)
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\test_simple_shadow_tree.py
+Tests for tools.simple_shadow_tree
+
+Auto-generated test cases for tools.simple_shadow_tree
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\test_smart_splitter.py
+Smart File Splitter
+
+This script provides enhanced file splitting capabilities with a focus on:
+1. Resource-oriented splitting
+2. Logical directory organization
+3. Reversible operations with manifests
+4. Dependency management
+5.
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\test_specialized.py
+Error: expected an indented block after 'try' statement on line 22 (<unknown>, line 23)
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\test_splitter.py
+Error: expected an indented block after 'try' statement on line 25 (<unknown>, line 26)
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\test_split_standard_modules.py
+Error: expected an indented block after 'try' statement on line 25 (<unknown>, line 26)
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\test_state_manager.py
+State manager module. This provides a simple state management system. Auto-generated test cases for core.state_manager
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\test_string_utils.py
+Error: expected an indented block after 'try' statement on line 25 (<unknown>, line 26)
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\test_structure_analyzer.py
+Error: expected an indented block after 'try' statement on line 25 (<unknown>, line 26)
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\test_structure_optimizer.py
+Error: expected an indented block after 'try' statement on line 25 (<unknown>, line 26)
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\test_system.py
+Tests for modules.system
+
+Auto-generated test cases for modules.system
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\test_unified_core.py
+Unified Core Architecture
+
+This module provides a unified core architecture that integrates all existing modules
+while maintaining a clean hierarchical structure. It serves as the central hub for
+all functionality in the Logic Tool.
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\test_unified_core___init__.py
+Error: expected an indented block after 'try' statement on line 22 (<unknown>, line 23)
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\test_utils.py
+Error: expected an indented block after 'try' statement on line 22 (<unknown>, line 23)
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\test___init__.py
+Error: expected an indented block after 'try' statement on line 22 (<unknown>, line 23)
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\ui_components_register_results_renderer.py
+Error: unexpected indent (<unknown>, line 11)
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\ui_renderers.py
+UI Renderers - Module-specific UI rendering functions
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\ui_renderers_part2.py
+UI Renderers Part 2 - Additional module-specific UI rendering functions
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\ui_renderers_part3.py
+UI Renderers Part 3 - Final module-specific UI rendering functions
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\ui_utils.py
+UI Utilities for the Logic Tool
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\unified.py
+Error: unexpected indent (<unknown>, line 12)
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\unified_core___init__.py
+unified_core package.
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\unified_ui.py
+Error: unexpected indent (<unknown>, line 12)
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\utils.py
+No docstring found.
+
+C:\Users\timge\Downloads\code_logic_tool_full\backup\verify_codebase.py
+Verify Codebase
+
+This script verifies that all major components of the codebase work correctly
+after the reorganization.
+
+C:\Users\timge\Downloads\code_logic_tool_full\core\hierarchical_module.py
+Fix HierarchicalModule Imports
+
+This script creates the necessary modules in sys.modules to fix import issues
+with HierarchicalModule.
+
+C:\Users\timge\Downloads\code_logic_tool_full\core\simple_hierarchical_core.py
+Compatibility module for simple_hierarchical_core.py. This file redirects imports to the new location.
+
+C:\Users\timge\Downloads\code_logic_tool_full\core\state_manager.py
+State manager module. This provides a simple state management system with event bus and shared state.
+
+C:\Users\timge\Downloads\code_logic_tool_full\core\ui_components.py
+UI Components Module
+
+This compatibility module provides UI component functionality for the codebase. It serves as a bridge during the transition to the new directory structure.
+
+C:\Users\timge\Downloads\code_logic_tool_full\core\unified_core.py
+Unified Core Architecture
+
+This module provides a unified core architecture that integrates all existing modules
+while maintaining a clean hierarchical structure. It serves as the central hub for
+all functionality in the Logic Tool.
+
+C:\Users\timge\Downloads\code_logic_tool_full\core\validation_core.py
+Validation Core
+
+This module provides core functionality for integrating the validation system
+with the dynamic module system of code_logic_tool_full.
+
+C:\Users\timge\Downloads\code_logic_tool_full\core\__init__.py
+core package.
+
+C:\Users\timge\Downloads\code_logic_tool_full\modules\validation_module.py
+Validation Module
+
+This module integrates the Shadow validator into the module system
+for code validation and quality checking.
+
+C:\Users\timge\Downloads\code_logic_tool_full\modules\__init__.py
+modules package.
+
+C:\Users\timge\Downloads\code_logic_tool_full\tests\__init__.py
+tests package. This package contains modules related to tests.
+
+C:\Users\timge\Downloads\code_logic_tool_full\tools\__init__.py
+tools package.
+
+C:\Users\timge\Downloads\code_logic_tool_full\ui\__init__.py
+ui package.
+
+C:\Users\timge\Downloads\code_logic_tool_full\utils\__init__.py
+Utils package - provides utility functions for the codebase. This package contains various utility modules for file operations, path handling,
+string manipulation, and import management.
+
+C:\Users\timge\Downloads\code_logic_tool_full\utils\data\__init__.py
+data package.
+
+C:\Users\timge\Downloads\code_logic_tool_full\utils\file\simple_hierarchical_core.py
+Simple Hierarchical Core - A lightweight foundation for hierarchical modules
+
+This module provides a simplified hierarchical module system with event-based
+communication and state management. It's designed to be easy to understand and use.
+
+C:\Users\timge\Downloads\code_logic_tool_full\utils\file\state_manager.py
+State Manager - Core component for managing shared state and event communication
+
+C:\Users\timge\Downloads\code_logic_tool_full\utils\file\ui_components.py
+UI Components - Core components for the unified UI
+
+C:\Users\timge\Downloads\code_logic_tool_full\utils\file\unified_core.py
+Unified Core Architecture
+
+This module provides a unified core architecture that integrates all existing modules
+while maintaining a clean hierarchical structure. It serves as the central hub for
+all functionality in the Logic Tool.
+
+C:\Users\timge\Downloads\code_logic_tool_full\utils\file\__init__.py
+file package.
+
+C:\Users\timge\Downloads\code_logic_tool_full\utils\import\debug_import.py
+Debug Import Issues
+
+This script helps debug the specific import issues with HierarchicalModule.
+
+C:\Users\timge\Downloads\code_logic_tool_full\utils\import\dynamic_import_resolver.py
+Dynamic Import Resolver
+
+This tool dynamically scans the entire codebase and builds a map of all modules. It then uses this map to resolve imports at runtime, adapting to the actual structure.
+
+C:\Users\timge\Downloads\code_logic_tool_full\utils\import\fix_both_modules.py
+Fix Both Modules
+
+This script directly adds both HierarchicalModule and RuntimeOptimizationModule
+to sys.modules at all required import paths.
+
+C:\Users\timge\Downloads\code_logic_tool_full\utils\import\fix_hierarchical_module.py
+Fix HierarchicalModule Imports
+
+This script creates the necessary modules in sys.modules to fix import issues
+with HierarchicalModule.
+
+C:\Users\timge\Downloads\code_logic_tool_full\utils\import\fix_imports_simple.py
+Simple Import Fixer
+
+This script creates the necessary modules in sys.modules to fix import issues.
+
+C:\Users\timge\Downloads\code_logic_tool_full\utils\import\universal_import_fixer.py
+Universal Import Fixer
+
+A dynamic tool that fixes import issues by creating a universal import system
+that can find modules regardless of their location in the codebase.
+
+C:\Users\timge\Downloads\code_logic_tool_full\utils\import\__init__.py
+import package.
+
+C:\Users\timge\Downloads\code_logic_tool_full\utils\nlp\shadow_tree_nlp.py
+Restored Shadow Tree NLP Utilities
+
+Provides natural language processing (NLP) utilities for code structure analysis and explanation, using NLTK for tokenization, lemmatization, and summarization.
+
+C:\Users\timge\Downloads\code_logic_tool_full\utils\nlp\__init__.py
+nlp package.
+
+C:\Users\timge\Downloads\code_logic_tool_full\utils\path\__init__.py
+Path utility functions.
+
+C:\Users\timge\Downloads\code_logic_tool_full\utils\refactoring\balance_codebase.py
+Balance the codebase directory structure based on analysis recommendations. This script will:
+1. Split overpopulated directories
+2. Consolidate sparse directories
+3. Flatten deep structures
+4. Balance top-level directories
+5.
+
+C:\Users\timge\Downloads\code_logic_tool_full\utils\refactoring\circular_dependency_breaker.py
+Circular Dependency Breaker
+
+Breaks circular dependencies by pre-loading all modules in the directory structure.
+
+C:\Users\timge\Downloads\code_logic_tool_full\utils\runtime\__init__.py
+runtime package.
+
+C:\Users\timge\Downloads\code_logic_tool_full\utils\string\__init__.py
+string package.
+
+C:\Users\timge\Downloads\code_logic_tool_full\utils\system\background_system.py
+Background System Compatibility Module
+
+This module provides compatibility for the background_system module during the transition
+to the new directory structure.
+
+C:\Users\timge\Downloads\code_logic_tool_full\utils\system\module_system.py
+Module System Compatibility Module
+
+This module provides compatibility for the module_system module during the transition
+to the new directory structure. It now includes validation capabilities.
+
+C:\Users\timge\Downloads\code_logic_tool_full\utils\system\__init__.py
+system package.
+
+C:\Users\timge\Downloads\code_logic_tool_full\utils\time\__init__.py
+time package.
+
+C:\Users\timge\Downloads\code_logic_tool_full\ui\components\__init__.py
+components package.
+
+C:\Users\timge\Downloads\code_logic_tool_full\ui\pages\__init__.py
+pages package.
+
+C:\Users\timge\Downloads\code_logic_tool_full\ui\renderers\__init__.py
+renderers package.
+
+C:\Users\timge\Downloads\code_logic_tool_full\tools\analysis\analyze_directory_structure.py
+Analyze the directory structure of the codebase to evaluate balance. This script will measure depth, breadth, and file distribution.
+
+C:\Users\timge\Downloads\code_logic_tool_full\tools\analysis\code_stats_analyzer.py
+Code Statistics Analyzer
+
+This script analyzes all Python files in the codebase and provides statistics on:
+- Commands (statements)
+- Branches (if/else, loops)
+- Variables
+- Functions/methods
+- Classes
+- Lines of code
+- Comments
+
+C:\Users\timge\Downloads\code_logic_tool_full\tools\analysis\test_all_imports.py
+Test All Imports
+
+A comprehensive script to test importing all modules in the codebase. It identifies circular dependencies and other import issues.
+
+C:\Users\timge\Downloads\code_logic_tool_full\tools\analysis\test_core_functionality.py
+Test Core Functionality
+
+This script tests that the core functionality of the codebase works correctly
+after reorganization, without getting caught up in every import issue. It uses a TDD approach to ensure the most critical parts work.
+
+C:\Users\timge\Downloads\code_logic_tool_full\tools\analysis\test_coverage_generator.py
+Test Coverage Generator
+
+This script provides a comprehensive testing solution that:
+1. Discovers all modules in the codebase
+2. Generates test cases for untested modules
+3. Runs all existing and generated tests
+4. Produces a coverage report
+5.
+
+C:\Users\timge\Downloads\code_logic_tool_full\tools\analysis\test_imports.py
+Test Imports
+
+This script tests importing key modules to identify any remaining import issues. It uses the universal import fixer to resolve import issues dynamically.
+
+C:\Users\timge\Downloads\code_logic_tool_full\tools\analysis\test_new_structure.py
+Test New Structure
+
+This script tests that the core functionality works with the new directory structure.
+
+C:\Users\timge\Downloads\code_logic_tool_full\tools\analysis\test_refactoring.py
+Test script for the refactoring system. This script tests the basic functionality of the refactoring system after reorganization.
+
+C:\Users\timge\Downloads\code_logic_tool_full\tools\analysis\__init__.py
+analysis package. This package contains modules related to analysis.
+
+C:\Users\timge\Downloads\code_logic_tool_full\tools\cleanup\cleanup_after_reorganize.py
+Cleanup After Reorganization
+
+This script:
+1. Tests imports to ensure everything works
+2. Fixes any remaining import issues
+3.
+
+C:\Users\timge\Downloads\code_logic_tool_full\tools\cleanup\cleanup_top_level.py
+Cleanup Top Level
+
+This script cleans up the top-level directory by:
+1. Moving working scripts to appropriate directories
+2. Removing redundant or failed scripts
+3. Keeping only the essential files at the top level
+
+C:\Users\timge\Downloads\code_logic_tool_full\tools\cleanup\simple_cleanup.py
+Simple Cleanup Script
+
+This script:
+1. Creates any missing __init__.py files
+2. Removes original files that were copied to new locations
+
+Very simple, direct approach to finalize the reorganization.
+
+C:\Users\timge\Downloads\code_logic_tool_full\tools\fractal\__init__.py
+fractal package.
+
+C:\Users\timge\Downloads\code_logic_tool_full\tools\profiling\complexity_analyzer.py
+Complexity Analyzer
+
+This module provides tools for analyzing the algorithmic complexity (Big O notation)
+of Python code and suggesting optimizations.
+
+C:\Users\timge\Downloads\code_logic_tool_full\tools\refactoring\minimal_run.py
+Minimal Run Script
+
+This script defines HierarchicalModule and patches sys.modules before
+any imports happen, ensuring it's available to all modules.
+
+C:\Users\timge\Downloads\code_logic_tool_full\tools\refactoring\organize_codebase.py
+Organize the codebase according to the established directory structure. This script will move files to their appropriate locations based on their purpose and functionality.
+
+C:\Users\timge\Downloads\code_logic_tool_full\tools\refactoring\refactor_analyzer.py
+Error: expected an indented block after 'try' statement on line 34 (<unknown>, line 35)
+
+C:\Users\timge\Downloads\code_logic_tool_full\tools\refactoring\refactor_and_organize.py
+Error: unexpected indent (<unknown>, line 221)
+
+C:\Users\timge\Downloads\code_logic_tool_full\tools\refactoring\refactor_builder.py
+Error: expected an indented block after 'try' statement on line 35 (<unknown>, line 36)
+
+C:\Users\timge\Downloads\code_logic_tool_full\tools\refactoring\refactor_codebase.py
+Refactor Codebase
+
+This is the main entry point for the codebase refactoring system. It provides a unified
+interface to analyze, split, and rebuild Python code across the entire codebase.
+
+C:\Users\timge\Downloads\code_logic_tool_full\tools\refactoring\refactor_organize_simple.py
+Refactor and Organize Codebase - Simple Version
+
+This script uses existing tools to:
+1. Find similar code patterns across files
+2. Extract common functionality into helper functions
+3. Create LINQ-like pipeline operations
+4.
+
+C:\Users\timge\Downloads\code_logic_tool_full\tools\refactoring\refactor_splitter.py
+Compatibility module for refactor_splitter.py. This file redirects imports to the new location in tools/refactoring/.
+
+C:\Users\timge\Downloads\code_logic_tool_full\tools\refactoring\run_reorganize.py
+Run Reorganization
+
+This script fixes imports and then runs the reorganization script. Simple, direct approach as preferred.
+
+C:\Users\timge\Downloads\code_logic_tool_full\tools\refactoring\__init__.py
+refactoring package.
+
+C:\Users\timge\Downloads\code_logic_tool_full\tools\reorganization\__init__.py
+Reorganization tools package.
+
+C:\Users\timge\Downloads\code_logic_tool_full\tools\resource\__init__.py
+resource package.
+
+C:\Users\timge\Downloads\code_logic_tool_full\tools\scripts\__init__.py
+Utility scripts package.
+
+C:\Users\timge\Downloads\code_logic_tool_full\tools\shadow_tree\__init__.py
+shadow_tree package.
+
+C:\Users\timge\Downloads\code_logic_tool_full\tools\testing\__init__.py
+testing package.
+
+C:\Users\timge\Downloads\code_logic_tool_full\tools\validation\complexity_validator.py
+Complexity Validator
+
+This module integrates the complexity analyzer with the Shadow validation system
+to provide complexity analysis and optimization suggestions as part of the validation process.
+
+C:\Users\timge\Downloads\code_logic_tool_full\tools\validation\enhanced_shadow_validator.py
+Enhanced Shadow Validator
+
+This module integrates rule-based validation, embeddings, and AI models
+into a comprehensive, cost-effective validation system.
+
+C:\Users\timge\Downloads\code_logic_tool_full\tools\validation\shadow_ai_validator.py
+Shadow AI Validator
+
+This module provides AI-powered code validation using OpenAI models. It implements a cost-effective approach by using a cascade of models.
+
+C:\Users\timge\Downloads\code_logic_tool_full\tools\validation\shadow_embeddings.py
+Shadow Embeddings
+
+This module provides local embeddings functionality for code validation,
+allowing for semantic similarity matching and pattern-based caching.
+
+C:\Users\timge\Downloads\code_logic_tool_full\tools\validation\shadow_validator.py
+Shadow Validator Integration
+
+This module integrates the core concepts from the Shadow validation system
+into the code_logic_tool_full pipeline.
+
+C:\Users\timge\Downloads\code_logic_tool_full\tools\validation\validate_code.py
+Validate Code Tool
+
+This script provides a command-line interface for validating Python code
+using the Shadow validator integrated with the module system.
+
+C:\Users\timge\Downloads\code_logic_tool_full\tools\validation\validation_pipeline.py
+Validation Pipeline
+
+This script integrates the Shadow validator into the code_logic_tool_full pipeline,
+allowing for automated validation of Python code during the refactoring process.
+
+C:\Users\timge\Downloads\code_logic_tool_full\tools\shadow_tree\output\src\core\__init__.py
+core package.
+
+C:\Users\timge\Downloads\code_logic_tool_full\tools\shadow_tree\output\src\core_flat\__init__.py
+core package.
+
+C:\Users\timge\Downloads\code_logic_tool_full\tools\shadow_tree\output\src\core_flat_flat\__init__.py
+core package.
+
+C:\Users\timge\Downloads\code_logic_tool_full\tools\shadow_tree\output\src\file_utils\__init__.py
+file_utils package.
+
+C:\Users\timge\Downloads\code_logic_tool_full\tools\shadow_tree\output\src\modules\__init__.py
+modules package.
+
+C:\Users\timge\Downloads\code_logic_tool_full\tools\shadow_tree\output\src\modules_flat\__init__.py
+modules package.
+
+C:\Users\timge\Downloads\code_logic_tool_full\tools\shadow_tree\output\src\new_unified_ui\__init__.py
+new_unified_ui package.
+
+C:\Users\timge\Downloads\code_logic_tool_full\tools\shadow_tree\output\src\runtime_utils\__init__.py
+runtime_utils package.
+
+C:\Users\timge\Downloads\code_logic_tool_full\tools\shadow_tree\output\src\ui_utils\__init__.py
+ui_utils package.
+
+C:\Users\timge\Downloads\code_logic_tool_full\tools\shadow_tree\output\src\unified_ui\__init__.py
+unified_ui package.
+
+C:\Users\timge\Downloads\code_logic_tool_full\tools\shadow_tree\output\src\utils\__init__.py
+utils package.
+
+C:\Users\timge\Downloads\code_logic_tool_full\tools\shadow_tree\output\src\core\hierarchical_core\__init__.py
+hierarchical_core package.
+
+C:\Users\timge\Downloads\code_logic_tool_full\tools\shadow_tree\output\src\core\simple_hierarchical_core\__init__.py
+simple_hierarchical_core package.
+
+C:\Users\timge\Downloads\code_logic_tool_full\tools\shadow_tree\output\src\core\unified_core\__init__.py
+unified_core package.
+
+C:\Users\timge\Downloads\code_logic_tool_full\tests\integration\__init__.py
+integration package.
+
+C:\Users\timge\Downloads\code_logic_tool_full\tests\unit\__init__.py
+unit package.
+
+C:\Users\timge\Downloads\code_logic_tool_full\modules\hierarchical\__init__.py
+hierarchical package.
+
+C:\Users\timge\Downloads\code_logic_tool_full\modules\resource_oriented\__init__.py
+resource_oriented package.
+
+C:\Users\timge\Downloads\code_logic_tool_full\modules\standard\hierarchical_module.py
+Hierarchical Module System - Extends the base module system with hierarchical capabilities
+
+This module provides a hierarchical extension to the base module system,
+allowing modules to be organized in a tree structure with parent-child relationships.
+
+C:\Users\timge\Downloads\code_logic_tool_full\modules\standard\simple_hierarchical_core.py
+Simple Hierarchical Core - Compatibility Module
+
+This module redirects imports to the actual implementation in core/simple_hierarchical_core.py. It serves as a bridge during the transition to the new directory structure.
+
+C:\Users\timge\Downloads\code_logic_tool_full\modules\standard\__init__.py
+standard package.
+
+C:\Users\timge\Downloads\code_logic_tool_full\modules\standard\analysis\__init__.py
+analysis modules package.
+
+C:\Users\timge\Downloads\code_logic_tool_full\modules\standard\export\__init__.py
+export modules package.
+
+C:\Users\timge\Downloads\code_logic_tool_full\modules\standard\organization\__init__.py
+organization modules package.
+
+C:\Users\timge\Downloads\code_logic_tool_full\modules\standard\processing\__init__.py
+processing modules package.
+
+C:\Users\timge\Downloads\code_logic_tool_full\modules\resource_oriented\cpu\__init__.py
+cpu package.
+
+C:\Users\timge\Downloads\code_logic_tool_full\modules\resource_oriented\gpu\__init__.py
+gpu package.
+
+C:\Users\timge\Downloads\code_logic_tool_full\modules\resource_oriented\memory\__init__.py
+memory package.
+
+C:\Users\timge\Downloads\code_logic_tool_full\modules\resource_oriented\network\__init__.py
+network package.
+
+C:\Users\timge\Downloads\code_logic_tool_full\modules\resource\cleanup_critical_issues\__init__.py
+cleanup_critical_issues package
+
+This package was automatically generated by splitting cleanup_critical_issues.py
+
+C:\Users\timge\Downloads\code_logic_tool_full\legacy\src\__init__.py
+Legacy compatibility package.
+
+C:\Users\timge\Downloads\code_logic_tool_full\legacy\src\modules\__init__.py
+Legacy compatibility package.
+
+C:\Users\timge\Downloads\code_logic_tool_full\legacy\src\modules\hierarchical\__init__.py
+Legacy compatibility package for hierarchical modules. This imports from the new modules.standard package.
+
+C:\Users\timge\Downloads\code_logic_tool_full\docs\diagrams\__init__.py
+Diagrams package.
+
+C:\Users\timge\Downloads\code_logic_tool_full\core\ast\__init__.py
+ast package.
+
+C:\Users\timge\Downloads\code_logic_tool_full\core\export\__init__.py
+export package.
+
+C:\Users\timge\Downloads\code_logic_tool_full\core\ir\__init__.py
+ir package.
+
+C:\Users\timge\Downloads\code_logic_tool_full\core\optimization\__init__.py
+optimization package.
+
+C:\Users\timge\Downloads\code_logic_tool_full\core\processing\__init__.py
+processing package.
+
+C:\Users\timge\Downloads\code_logic_tool_full\core\proof\__init__.py
+proof package.
+

@@ -1,0 +1,11 @@
+{
+  "NOT_VALID_based-completed-docstring-missing-module-rule-validation": {
+    "count": 1
+  },
+  "NOT_VALID_based-completed-complex-function-rule-statements-too-validate_code-validation": {
+    "count": 1
+  },
+  "NOT_VALID_based-checking-completed-complexity-conventions-docstrings-error-imports-invalid-line-naming-rule-syntax-unknown-validation": {
+    "count": 1
+  }
+}

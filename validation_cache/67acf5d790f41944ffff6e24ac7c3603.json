@@ -1,0 +1,12 @@
+{
+  "status": "NOT_VALID",
+  "confidence": 0.6,
+  "source": "rule_based",
+  "explanation": "Rule-based validation completed",
+  "suggestions": [
+    "Module is missing a docstring"
+  ],
+  "cost": 0.0,
+  "execution_time": 0.0333096981048584,
+  "pattern_key": "NOT_VALID_based-completed-docstring-missing-module-rule-validation"
+}

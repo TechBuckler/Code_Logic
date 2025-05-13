@@ -1,0 +1,997 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>Shadow Tree Visualization</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            .tree-node { margin-left: 20px; }
+            .node-name { cursor: pointer; font-weight: bold; }
+            .node-summary { color: #666; }
+            .node-children { display: none; }
+            .expanded .node-children { display: block; }
+            .node-path { color: #999; font-size: 0.8em; }
+            .search-box { margin-bottom: 20px; }
+            .search-results { margin-top: 10px; }
+        </style>
+    </head>
+    <body>
+        <h1>Shadow Tree Visualization</h1>
+        
+        <div class="search-box">
+            <input type="text" id="search-input" placeholder="Search the shadow tree...">
+            <button onclick="searchTree()">Search</button>
+            <div class="search-results" id="search-results"></div>
+        </div>
+        
+        <div id="tree-root">
+    
+    <div class="tree-node" id="node-src">
+        <div class="node-header">
+            <span class="node-name" onclick="toggleNode('node-src')">src</span>
+            <span class="node-summary"> - </span>
+        </div>
+        <div class="node-children">
+    
+    <div class="tree-node" id="node-src-child-0">
+        <div class="node-header">
+            <span class="node-name" onclick="toggleNode('node-src-child-0')">ai_suggester.py</span>
+            <span class="node-summary"> - Contains Ask Openai, Ask Llama, Compare Ai</span>
+        </div>
+        <div class="node-children">
+    
+        <div class="node-path">
+            <p>Code path: src\ai_suggester.py</p>
+        </div>
+        
+        </div>
+    </div>
+    
+    <div class="tree-node" id="node-src-child-1">
+        <div class="node-header">
+            <span class="node-name" onclick="toggleNode('node-src-child-1')">ast_explorer.py</span>
+            <span class="node-summary"> - Contains Extract Functions, Function Visitor, Visit Functiondef</span>
+        </div>
+        <div class="node-children">
+    
+        <div class="node-path">
+            <p>Code path: src\ast_explorer.py</p>
+        </div>
+        
+        </div>
+    </div>
+    
+    <div class="tree-node" id="node-src-child-2">
+        <div class="node-header">
+            <span class="node-name" onclick="toggleNode('node-src-child-2')">background_system.py</span>
+            <span class="node-summary"> - Contains Background System,   Init  , Start and 5 more</span>
+        </div>
+        <div class="node-children">
+    
+        <div class="node-path">
+            <p>Code path: src\background_system.py</p>
+        </div>
+        
+        </div>
+    </div>
+    
+    <div class="tree-node" id="node-src-child-3">
+        <div class="node-header">
+            <span class="node-name" onclick="toggleNode('node-src-child-3')">bootstrap.py</span>
+            <span class="node-summary"> - Bootstrap - Self-generating architecture system</span>
+        </div>
+        <div class="node-children">
+    
+        <div class="node-description">
+            <p>Bootstrap - Self-generating architecture system
+
+This module analyzes the existing codebase and transforms it into the new
+hierarchical architecture. It serves as the entry point for the self-bootstrapping
+process.</p>
+        </div>
+        
+        <div class="node-path">
+            <p>Code path: src\bootstrap.py</p>
+        </div>
+        
+        </div>
+    </div>
+    
+    <div class="tree-node" id="node-src-child-4">
+        <div class="node-header">
+            <span class="node-name" onclick="toggleNode('node-src-child-4')">demo_hierarchical.py</span>
+            <span class="node-summary"> - Demo of the Hierarchical Module System</span>
+        </div>
+        <div class="node-children">
+    
+        <div class="node-description">
+            <p>Demo of the Hierarchical Module System
+
+This script demonstrates the hierarchical module system by creating a simple
+hierarchy of modules and showing how they interact.</p>
+        </div>
+        
+        <div class="node-path">
+            <p>Code path: src\demo_hierarchical.py</p>
+        </div>
+        
+        </div>
+    </div>
+    
+    <div class="tree-node" id="node-src-child-5">
+        <div class="node-header">
+            <span class="node-name" onclick="toggleNode('node-src-child-5')">exporter.py</span>
+            <span class="node-summary"> - Contains Export To Python</span>
+        </div>
+        <div class="node-children">
+    
+        <div class="node-path">
+            <p>Code path: src\exporter.py</p>
+        </div>
+        
+        </div>
+    </div>
+    
+    <div class="tree-node" id="node-src-child-6">
+        <div class="node-header">
+            <span class="node-name" onclick="toggleNode('node-src-child-6')">exporter_optimized.py</span>
+            <span class="node-summary"> - Contains Export To Python</span>
+        </div>
+        <div class="node-children">
+    
+        <div class="node-path">
+            <p>Code path: src\exporter_optimized.py</p>
+        </div>
+        
+        </div>
+    </div>
+    
+    <div class="tree-node" id="node-src-child-7">
+        <div class="node-header">
+            <span class="node-name" onclick="toggleNode('node-src-child-7')">file_utils.py</span>
+            <span class="node-summary"> - File Utilities for the Logic Tool</span>
+        </div>
+        <div class="node-children">
+    
+        <div class="node-description">
+            <p>File Utilities for the Logic Tool
+
+This module provides utility functions for working with files,
+including copying, transforming, and loading Python modules.</p>
+        </div>
+        
+        <div class="node-path">
+            <p>Code path: src\file_utils.py</p>
+        </div>
+        
+        </div>
+    </div>
+    
+    <div class="tree-node" id="node-src-child-8">
+        <div class="node-header">
+            <span class="node-name" onclick="toggleNode('node-src-child-8')">graph_builder.py</span>
+            <span class="node-summary"> - Contains Build Function Graph</span>
+        </div>
+        <div class="node-children">
+    
+        <div class="node-path">
+            <p>Code path: src\graph_builder.py</p>
+        </div>
+        
+        </div>
+    </div>
+    
+    <div class="tree-node" id="node-src-child-9">
+        <div class="node-header">
+            <span class="node-name" onclick="toggleNode('node-src-child-9')">hierarchical_app.py</span>
+            <span class="node-summary"> - Hierarchical Logic Tool Application</span>
+        </div>
+        <div class="node-children">
+    
+        <div class="node-description">
+            <p>Hierarchical Logic Tool Application
+
+This is the main entry point for the Logic Tool using the hierarchical module system.
+It sets up the core modules and handles the main UI rendering.</p>
+        </div>
+        
+        <div class="node-path">
+            <p>Code path: src\hierarchical_app.py</p>
+        </div>
+        
+        </div>
+    </div>
+    
+    <div class="tree-node" id="node-src-child-10">
+        <div class="node-header">
+            <span class="node-name" onclick="toggleNode('node-src-child-10')">hierarchical_main.py</span>
+            <span class="node-summary"> - Hierarchical Logic Tool - Main Application</span>
+        </div>
+        <div class="node-children">
+    
+        <div class="node-description">
+            <p>Hierarchical Logic Tool - Main Application
+
+This is the main entry point for the Logic Tool using the hierarchical module architecture.
+It sets up the core modules and handles the main UI rendering.</p>
+        </div>
+        
+        <div class="node-path">
+            <p>Code path: src\hierarchical_main.py</p>
+        </div>
+        
+        </div>
+    </div>
+    
+    <div class="tree-node" id="node-src-child-11">
+        <div class="node-header">
+            <span class="node-name" onclick="toggleNode('node-src-child-11')">imports.py</span>
+            <span class="node-summary"> - Centralized imports for the Logic Tool system.</span>
+        </div>
+        <div class="node-children">
+    
+        <div class="node-description">
+            <p>Centralized imports for the Logic Tool system.
+This file ensures all components can find their dependencies.</p>
+        </div>
+        
+        <div class="node-path">
+            <p>Code path: src\imports.py</p>
+        </div>
+        
+        </div>
+    </div>
+    
+    <div class="tree-node" id="node-src-child-12">
+        <div class="node-header">
+            <span class="node-name" onclick="toggleNode('node-src-child-12')">ir_model.py</span>
+            <span class="node-summary"> - Contains Extract Ir From Source,  Extract If Conditions,  Get Return Value and 1 more</span>
+        </div>
+        <div class="node-children">
+    
+        <div class="node-path">
+            <p>Code path: src\ir_model.py</p>
+        </div>
+        
+        </div>
+    </div>
+    
+    <div class="tree-node" id="node-src-child-13">
+        <div class="node-header">
+            <span class="node-name" onclick="toggleNode('node-src-child-13')">module_system.py</span>
+            <span class="node-summary"> - Contains Module, Module Registry,   Init   and 17 more</span>
+        </div>
+        <div class="node-children">
+    
+        <div class="node-path">
+            <p>Code path: src\module_system.py</p>
+        </div>
+        
+        </div>
+    </div>
+    
+    <div class="tree-node" id="node-src-child-14">
+        <div class="node-header">
+            <span class="node-name" onclick="toggleNode('node-src-child-14')">new_main.py</span>
+            <span class="node-summary"> - New Main Application - Entry point for the Logic Tool with hierarchical architecture</span>
+        </div>
+        <div class="node-children">
+    
+        <div class="node-description">
+            <p>New Main Application - Entry point for the Logic Tool with hierarchical architecture
+
+This module serves as the main entry point for the Logic Tool, using the new
+hierarchical architecture based on simple_hierarchical_core.py.</p>
+        </div>
+        
+        <div class="node-path">
+            <p>Code path: src\new_main.py</p>
+        </div>
+        
+        </div>
+    </div>
+    
+    <div class="tree-node" id="node-src-child-15">
+        <div class="node-header">
+            <span class="node-name" onclick="toggleNode('node-src-child-15')">new_unified_ui.py</span>
+            <span class="node-summary"> - New Unified UI - Redesigned UI with improved architecture</span>
+        </div>
+        <div class="node-children">
+    
+        <div class="node-description">
+            <p>New Unified UI - Redesigned UI with improved architecture</p>
+        </div>
+        
+        <div class="node-path">
+            <p>Code path: src\new_unified_ui.py</p>
+        </div>
+        
+        </div>
+    </div>
+    
+    <div class="tree-node" id="node-src-child-16">
+        <div class="node-header">
+            <span class="node-name" onclick="toggleNode('node-src-child-16')">optimizer.py</span>
+            <span class="node-summary"> - Contains Optimize Logic, Generate Lookup Table, Extract Numeric Bounds and 5 more</span>
+        </div>
+        <div class="node-children">
+    
+        <div class="node-path">
+            <p>Code path: src\optimizer.py</p>
+        </div>
+        
+        </div>
+    </div>
+    
+    <div class="tree-node" id="node-src-child-17">
+        <div class="node-header">
+            <span class="node-name" onclick="toggleNode('node-src-child-17')">proof_engine.py</span>
+            <span class="node-summary"> - Contains Run Z3 Proof, Parse Condition To Z3, Run Default Proof and 2 more</span>
+        </div>
+        <div class="node-children">
+    
+        <div class="node-path">
+            <p>Code path: src\proof_engine.py</p>
+        </div>
+        
+        </div>
+    </div>
+    
+    <div class="tree-node" id="node-src-child-18">
+        <div class="node-header">
+            <span class="node-name" onclick="toggleNode('node-src-child-18')">runtime_optimization.py</span>
+            <span class="node-summary"> - Runtime Optimization Module</span>
+        </div>
+        <div class="node-children">
+    
+        <div class="node-description">
+            <p>Runtime Optimization Module
+This module provides the runtime optimization components that integrate with the logic analysis system.</p>
+        </div>
+        
+        <div class="node-path">
+            <p>Code path: src\runtime_optimization.py</p>
+        </div>
+        
+        </div>
+    </div>
+    
+    <div class="tree-node" id="node-src-child-19">
+        <div class="node-header">
+            <span class="node-name" onclick="toggleNode('node-src-child-19')">runtime_utils.py</span>
+            <span class="node-summary"> - Runtime Utilities for the Logic Tool System.</span>
+        </div>
+        <div class="node-children">
+    
+        <div class="node-description">
+            <p>Runtime Utilities for the Logic Tool System.
+This file provides functions that bridge the logic analysis and runtime optimization components.</p>
+        </div>
+        
+        <div class="node-path">
+            <p>Code path: src\runtime_utils.py</p>
+        </div>
+        
+        </div>
+    </div>
+    
+    <div class="tree-node" id="node-src-child-20">
+        <div class="node-header">
+            <span class="node-name" onclick="toggleNode('node-src-child-20')">starter_pipeline.py</span>
+            <span class="node-summary"> - Contains Run Pipeline, Parse Arguments</span>
+        </div>
+        <div class="node-children">
+    
+        <div class="node-path">
+            <p>Code path: src\starter_pipeline.py</p>
+        </div>
+        
+        </div>
+    </div>
+    
+    <div class="tree-node" id="node-src-child-21">
+        <div class="node-header">
+            <span class="node-name" onclick="toggleNode('node-src-child-21')">ui_renderers.py</span>
+            <span class="node-summary"> - UI Renderers - Module-specific UI rendering functions</span>
+        </div>
+        <div class="node-children">
+    
+        <div class="node-description">
+            <p>UI Renderers - Module-specific UI rendering functions</p>
+        </div>
+        
+        <div class="node-path">
+            <p>Code path: src\ui_renderers.py</p>
+        </div>
+        
+        </div>
+    </div>
+    
+    <div class="tree-node" id="node-src-child-22">
+        <div class="node-header">
+            <span class="node-name" onclick="toggleNode('node-src-child-22')">ui_renderers_part2.py</span>
+            <span class="node-summary"> - UI Renderers Part 2 - Additional module-specific UI rendering functions</span>
+        </div>
+        <div class="node-children">
+    
+        <div class="node-description">
+            <p>UI Renderers Part 2 - Additional module-specific UI rendering functions</p>
+        </div>
+        
+        <div class="node-path">
+            <p>Code path: src\ui_renderers_part2.py</p>
+        </div>
+        
+        </div>
+    </div>
+    
+    <div class="tree-node" id="node-src-child-23">
+        <div class="node-header">
+            <span class="node-name" onclick="toggleNode('node-src-child-23')">ui_renderers_part3.py</span>
+            <span class="node-summary"> - UI Renderers Part 3 - Final module-specific UI rendering functions</span>
+        </div>
+        <div class="node-children">
+    
+        <div class="node-description">
+            <p>UI Renderers Part 3 - Final module-specific UI rendering functions</p>
+        </div>
+        
+        <div class="node-path">
+            <p>Code path: src\ui_renderers_part3.py</p>
+        </div>
+        
+        </div>
+    </div>
+    
+    <div class="tree-node" id="node-src-child-24">
+        <div class="node-header">
+            <span class="node-name" onclick="toggleNode('node-src-child-24')">ui_utils.py</span>
+            <span class="node-summary"> - UI Utilities for the Logic Tool</span>
+        </div>
+        <div class="node-children">
+    
+        <div class="node-description">
+            <p>UI Utilities for the Logic Tool</p>
+        </div>
+        
+        <div class="node-path">
+            <p>Code path: src\ui_utils.py</p>
+        </div>
+        
+        </div>
+    </div>
+    
+    <div class="tree-node" id="node-src-child-25">
+        <div class="node-header">
+            <span class="node-name" onclick="toggleNode('node-src-child-25')">unified_ui.py</span>
+            <span class="node-summary"> - Contains Initialize System, Run Ui, Background Optimization and 1 more</span>
+        </div>
+        <div class="node-children">
+    
+        <div class="node-path">
+            <p>Code path: src\unified_ui.py</p>
+        </div>
+        
+        </div>
+    </div>
+    
+    <div class="tree-node" id="node-src-child-26">
+        <div class="node-header">
+            <span class="node-name" onclick="toggleNode('node-src-child-26')">utils.py</span>
+            <span class="node-summary"> - Contains Safe Eval</span>
+        </div>
+        <div class="node-children">
+    
+        <div class="node-path">
+            <p>Code path: src\utils.py</p>
+        </div>
+        
+        </div>
+    </div>
+    
+    <div class="tree-node" id="node-src-child-27">
+        <div class="node-header">
+            <span class="node-name" onclick="toggleNode('node-src-child-27')">core</span>
+            <span class="node-summary"> - </span>
+        </div>
+        <div class="node-children">
+    
+        <div class="node-path">
+            <p>Code path: src\core</p>
+        </div>
+        
+    <div class="tree-node" id="node-src-child-27-child-0">
+        <div class="node-header">
+            <span class="node-name" onclick="toggleNode('node-src-child-27-child-0')">hierarchical_core.py</span>
+            <span class="node-summary"> - Hierarchical Core - Foundation for the self-bootstrapping architecture</span>
+        </div>
+        <div class="node-children">
+    
+        <div class="node-description">
+            <p>Hierarchical Core - Foundation for the self-bootstrapping architecture
+
+This module provides the core components for a hierarchical, modular system
+that can dynamically organize, load, and manage modules at multiple levels
+of abstraction.</p>
+        </div>
+        
+        <div class="node-path">
+            <p>Code path: src\core\hierarchical_core.py</p>
+        </div>
+        
+        </div>
+    </div>
+    
+    <div class="tree-node" id="node-src-child-27-child-1">
+        <div class="node-header">
+            <span class="node-name" onclick="toggleNode('node-src-child-27-child-1')">hierarchical_module.py</span>
+            <span class="node-summary"> - Hierarchical Module System - Extends the base module system with hierarchical capabilities</span>
+        </div>
+        <div class="node-children">
+    
+        <div class="node-description">
+            <p>Hierarchical Module System - Extends the base module system with hierarchical capabilities
+
+This module provides a hierarchical extension to the base module system,
+allowing modules to be organized in a tree structure with parent-child relationships.</p>
+        </div>
+        
+        <div class="node-path">
+            <p>Code path: src\core\hierarchical_module.py</p>
+        </div>
+        
+        </div>
+    </div>
+    
+    <div class="tree-node" id="node-src-child-27-child-2">
+        <div class="node-header">
+            <span class="node-name" onclick="toggleNode('node-src-child-27-child-2')">simple_hierarchical_core.py</span>
+            <span class="node-summary"> - Simple Hierarchical Core - A lightweight foundation for hierarchical modules</span>
+        </div>
+        <div class="node-children">
+    
+        <div class="node-description">
+            <p>Simple Hierarchical Core - A lightweight foundation for hierarchical modules
+
+This module provides a simplified hierarchical module system with event-based
+communication and state management. It's designed to be easy to understand and use.</p>
+        </div>
+        
+        <div class="node-path">
+            <p>Code path: src\core\simple_hierarchical_core.py</p>
+        </div>
+        
+        </div>
+    </div>
+    
+    <div class="tree-node" id="node-src-child-27-child-3">
+        <div class="node-header">
+            <span class="node-name" onclick="toggleNode('node-src-child-27-child-3')">state_manager.py</span>
+            <span class="node-summary"> - State Manager - Core component for managing shared state and event communication</span>
+        </div>
+        <div class="node-children">
+    
+        <div class="node-description">
+            <p>State Manager - Core component for managing shared state and event communication</p>
+        </div>
+        
+        <div class="node-path">
+            <p>Code path: src\core\state_manager.py</p>
+        </div>
+        
+        </div>
+    </div>
+    
+    <div class="tree-node" id="node-src-child-27-child-4">
+        <div class="node-header">
+            <span class="node-name" onclick="toggleNode('node-src-child-27-child-4')">ui_components.py</span>
+            <span class="node-summary"> - UI Components - Core components for the unified UI</span>
+        </div>
+        <div class="node-children">
+    
+        <div class="node-description">
+            <p>UI Components - Core components for the unified UI</p>
+        </div>
+        
+        <div class="node-path">
+            <p>Code path: src\core\ui_components.py</p>
+        </div>
+        
+        </div>
+    </div>
+    
+    <div class="tree-node" id="node-src-child-27-child-5">
+        <div class="node-header">
+            <span class="node-name" onclick="toggleNode('node-src-child-27-child-5')">unified_core.py</span>
+            <span class="node-summary"> - Unified Core Architecture</span>
+        </div>
+        <div class="node-children">
+    
+        <div class="node-description">
+            <p>Unified Core Architecture
+
+This module provides a unified core architecture that integrates all existing modules
+while maintaining a clean hierarchical structure. It serves as the central hub for
+all functionality in the Logic Tool.</p>
+        </div>
+        
+        <div class="node-path">
+            <p>Code path: src\core\unified_core.py</p>
+        </div>
+        
+        </div>
+    </div>
+    
+        </div>
+    </div>
+    
+    <div class="tree-node" id="node-src-child-28">
+        <div class="node-header">
+            <span class="node-name" onclick="toggleNode('node-src-child-28')">modules</span>
+            <span class="node-summary"> - </span>
+        </div>
+        <div class="node-children">
+    
+        <div class="node-path">
+            <p>Code path: src\modules</p>
+        </div>
+        
+    <div class="tree-node" id="node-src-child-28-child-0">
+        <div class="node-header">
+            <span class="node-name" onclick="toggleNode('node-src-child-28-child-0')">ast_parser_module.py</span>
+            <span class="node-summary"> - Contains Ast Parser Module,   Init  , Can Process and 1 more</span>
+        </div>
+        <div class="node-children">
+    
+        <div class="node-path">
+            <p>Code path: src\modules\ast_parser_module.py</p>
+        </div>
+        
+        </div>
+    </div>
+    
+    <div class="tree-node" id="node-src-child-28-child-1">
+        <div class="node-header">
+            <span class="node-name" onclick="toggleNode('node-src-child-28-child-1')">exporter_module.py</span>
+            <span class="node-summary"> - Contains Exporter Module,   Init  , Can Process and 1 more</span>
+        </div>
+        <div class="node-children">
+    
+        <div class="node-path">
+            <p>Code path: src\modules\exporter_module.py</p>
+        </div>
+        
+        </div>
+    </div>
+    
+    <div class="tree-node" id="node-src-child-28-child-2">
+        <div class="node-header">
+            <span class="node-name" onclick="toggleNode('node-src-child-28-child-2')">graph_builder_module.py</span>
+            <span class="node-summary"> - Contains Graph Builder Module,   Init  , Can Process and 1 more</span>
+        </div>
+        <div class="node-children">
+    
+        <div class="node-path">
+            <p>Code path: src\modules\graph_builder_module.py</p>
+        </div>
+        
+        </div>
+    </div>
+    
+    <div class="tree-node" id="node-src-child-28-child-3">
+        <div class="node-header">
+            <span class="node-name" onclick="toggleNode('node-src-child-28-child-3')">ir_generator_module.py</span>
+            <span class="node-summary"> - Contains Ir Generator Module,   Init  , Can Process and 1 more</span>
+        </div>
+        <div class="node-children">
+    
+        <div class="node-path">
+            <p>Code path: src\modules\ir_generator_module.py</p>
+        </div>
+        
+        </div>
+    </div>
+    
+    <div class="tree-node" id="node-src-child-28-child-4">
+        <div class="node-header">
+            <span class="node-name" onclick="toggleNode('node-src-child-28-child-4')">module_explorer_module.py</span>
+            <span class="node-summary"> - Module Explorer Module</span>
+        </div>
+        <div class="node-children">
+    
+        <div class="node-description">
+            <p>Module Explorer Module
+
+This module allows exploring, editing, and running other modules in the system.
+It provides a unified interface for inspecting code, running tools, and executing
+the entire pipeline or specific components.</p>
+        </div>
+        
+        <div class="node-path">
+            <p>Code path: src\modules\module_explorer_module.py</p>
+        </div>
+        
+        </div>
+    </div>
+    
+    <div class="tree-node" id="node-src-child-28-child-5">
+        <div class="node-header">
+            <span class="node-name" onclick="toggleNode('node-src-child-28-child-5')">optimization_testbed_module.py</span>
+            <span class="node-summary"> - Optimization Testbed Module</span>
+        </div>
+        <div class="node-children">
+    
+        <div class="node-description">
+            <p>Optimization Testbed Module
+
+This module provides a comprehensive testing environment for analyzing code and finding
+optimal tradeoffs between memory usage, CPU performance, GPU utilization, and other
+factors based on the target environment and use case.
+
+It implements a multi-variable radar chart visualization to help identify optimal
+configurations for different scenarios.</p>
+        </div>
+        
+        <div class="node-path">
+            <p>Code path: src\modules\optimization_testbed_module.py</p>
+        </div>
+        
+        </div>
+    </div>
+    
+    <div class="tree-node" id="node-src-child-28-child-6">
+        <div class="node-header">
+            <span class="node-name" onclick="toggleNode('node-src-child-28-child-6')">optimizer_module.py</span>
+            <span class="node-summary"> - Contains Optimizer Module,   Init  , Can Process and 1 more</span>
+        </div>
+        <div class="node-children">
+    
+        <div class="node-path">
+            <p>Code path: src\modules\optimizer_module.py</p>
+        </div>
+        
+        </div>
+    </div>
+    
+    <div class="tree-node" id="node-src-child-28-child-7">
+        <div class="node-header">
+            <span class="node-name" onclick="toggleNode('node-src-child-28-child-7')">project_organizer_module.py</span>
+            <span class="node-summary"> - Project Organizer Module</span>
+        </div>
+        <div class="node-children">
+    
+        <div class="node-description">
+            <p>Project Organizer Module
+
+This module handles project organization, file naming conventions, and project structure.
+It can analyze the current project structure, suggest improvements, and apply changes.</p>
+        </div>
+        
+        <div class="node-path">
+            <p>Code path: src\modules\project_organizer_module.py</p>
+        </div>
+        
+        </div>
+    </div>
+    
+    <div class="tree-node" id="node-src-child-28-child-8">
+        <div class="node-header">
+            <span class="node-name" onclick="toggleNode('node-src-child-28-child-8')">proof_engine_module.py</span>
+            <span class="node-summary"> - Contains Proof Engine Module,   Init  , Can Process and 1 more</span>
+        </div>
+        <div class="node-children">
+    
+        <div class="node-path">
+            <p>Code path: src\modules\proof_engine_module.py</p>
+        </div>
+        
+        </div>
+    </div>
+    
+    <div class="tree-node" id="node-src-child-28-child-9">
+        <div class="node-header">
+            <span class="node-name" onclick="toggleNode('node-src-child-28-child-9')">hierarchical</span>
+            <span class="node-summary"> - </span>
+        </div>
+        <div class="node-children">
+    
+        <div class="node-path">
+            <p>Code path: src\modules\hierarchical</p>
+        </div>
+        
+    <div class="tree-node" id="node-src-child-28-child-9-child-0">
+        <div class="node-header">
+            <span class="node-name" onclick="toggleNode('node-src-child-28-child-9-child-0')">analysis_core_module.py</span>
+            <span class="node-summary"> - Analysis Core Module - Hierarchical version</span>
+        </div>
+        <div class="node-children">
+    
+        <div class="node-description">
+            <p>Analysis Core Module - Hierarchical version
+
+This module serves as the core for all analysis-related functionality,
+including code parsing, AST exploration, and logic analysis.</p>
+        </div>
+        
+        <div class="node-path">
+            <p>Code path: src\modules\hierarchical\analysis_core_module.py</p>
+        </div>
+        
+        </div>
+    </div>
+    
+    <div class="tree-node" id="node-src-child-28-child-9-child-1">
+        <div class="node-header">
+            <span class="node-name" onclick="toggleNode('node-src-child-28-child-9-child-1')">ast_parser_module.py</span>
+            <span class="node-summary"> - Hierarchical AST Parser Module</span>
+        </div>
+        <div class="node-children">
+    
+        <div class="node-description">
+            <p>Hierarchical AST Parser Module
+
+This module extends the base AST parser module with hierarchical capabilities.
+It parses Python code into an Abstract Syntax Tree (AST) for further analysis.</p>
+        </div>
+        
+        <div class="node-path">
+            <p>Code path: src\modules\hierarchical\ast_parser_module.py</p>
+        </div>
+        
+        </div>
+    </div>
+    
+    <div class="tree-node" id="node-src-child-28-child-9-child-2">
+        <div class="node-header">
+            <span class="node-name" onclick="toggleNode('node-src-child-28-child-9-child-2')">ir_generator_module.py</span>
+            <span class="node-summary"> - Hierarchical IR Generator Module</span>
+        </div>
+        <div class="node-children">
+    
+        <div class="node-description">
+            <p>Hierarchical IR Generator Module
+
+This module extends the base IR generator module with hierarchical capabilities.
+It generates an Intermediate Representation (IR) model from parsed code.</p>
+        </div>
+        
+        <div class="node-path">
+            <p>Code path: src\modules\hierarchical\ir_generator_module.py</p>
+        </div>
+        
+        </div>
+    </div>
+    
+    <div class="tree-node" id="node-src-child-28-child-9-child-3">
+        <div class="node-header">
+            <span class="node-name" onclick="toggleNode('node-src-child-28-child-9-child-3')">optimization_core_module.py</span>
+            <span class="node-summary"> - Optimization Core Module - Hierarchical version</span>
+        </div>
+        <div class="node-children">
+    
+        <div class="node-description">
+            <p>Optimization Core Module - Hierarchical version
+
+This module serves as the core for all optimization-related functionality,
+including logic optimization, formal verification, and performance analysis.</p>
+        </div>
+        
+        <div class="node-path">
+            <p>Code path: src\modules\hierarchical\optimization_core_module.py</p>
+        </div>
+        
+        </div>
+    </div>
+    
+    <div class="tree-node" id="node-src-child-28-child-9-child-4">
+        <div class="node-header">
+            <span class="node-name" onclick="toggleNode('node-src-child-28-child-9-child-4')">optimizer_module.py</span>
+            <span class="node-summary"> - Contains Optimizer Module,   Init  , Handle Ir Generation Complete and 3 more</span>
+        </div>
+        <div class="node-children">
+    
+        <div class="node-path">
+            <p>Code path: src\modules\hierarchical\optimizer_module.py</p>
+        </div>
+        
+        </div>
+    </div>
+    
+    <div class="tree-node" id="node-src-child-28-child-9-child-5">
+        <div class="node-header">
+            <span class="node-name" onclick="toggleNode('node-src-child-28-child-9-child-5')">proof_engine_module.py</span>
+            <span class="node-summary"> - Hierarchical Proof Engine Module</span>
+        </div>
+        <div class="node-children">
+    
+        <div class="node-description">
+            <p>Hierarchical Proof Engine Module
+
+This module extends the base proof engine module with hierarchical capabilities.
+It uses Z3 to formally verify the correctness of logic functions.</p>
+        </div>
+        
+        <div class="node-path">
+            <p>Code path: src\modules\hierarchical\proof_engine_module.py</p>
+        </div>
+        
+        </div>
+    </div>
+    
+        </div>
+    </div>
+    
+        </div>
+    </div>
+    
+        </div>
+    </div>
+    
+        </div>
+        
+        <script>
+            function toggleNode(nodeId) {
+                const node = document.getElementById(nodeId);
+                node.classList.toggle('expanded');
+            }
+            
+            function searchTree() {
+                const query = document.getElementById('search-input').value.toLowerCase();
+                const results = document.getElementById('search-results');
+                results.innerHTML = '';
+                
+                if (!query) return;
+                
+                const nodes = document.querySelectorAll('.tree-node');
+                let matchCount = 0;
+                
+                nodes.forEach(node => {
+                    const nodeName = node.querySelector('.node-name').textContent.toLowerCase();
+                    const nodeSummary = node.querySelector('.node-summary').textContent.toLowerCase();
+                    
+                    if (nodeName.includes(query) || nodeSummary.includes(query)) {
+                        const nodeId = node.id;
+                        const path = getNodePath(node);
+                        
+                        const resultItem = document.createElement('div');
+                        resultItem.innerHTML = `<a href="#${nodeId}" onclick="expandToNode('${nodeId}')">${path}</a>`;
+                        results.appendChild(resultItem);
+                        
+                        matchCount++;
+                    }
+                });
+                
+                if (matchCount === 0) {
+                    results.innerHTML = 'No results found.';
+                }
+            }
+            
+            function getNodePath(node) {
+                const path = [];
+                let current = node;
+                
+                while (current && current.classList.contains('tree-node')) {
+                    const nodeName = current.querySelector('.node-name').textContent;
+                    path.unshift(nodeName);
+                    current = current.parentElement.closest('.tree-node');
+                }
+                
+                return path.join(' > ');
+            }
+            
+            function expandToNode(nodeId) {
+                const node = document.getElementById(nodeId);
+                let current = node.parentElement.closest('.tree-node');
+                
+                while (current) {
+                    current.classList.add('expanded');
+                    current = current.parentElement.closest('.tree-node');
+                }
+                
+                node.classList.add('expanded');
+                node.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            }
+        </script>
+    </body>
+    </html>
+    

@@ -1,0 +1,16 @@
+# __init__.py
+
+**Path:** `core\ir\__init__.py`
+
+## Description
+
+ir package.
+
+## Metrics
+
+- **Lines of Code:** 3
+- **Functions:** 0
+- **Classes:** 0
+- **Imports:** 0
+- **Complexity:** 1
+

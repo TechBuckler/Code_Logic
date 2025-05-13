@@ -1,0 +1,12 @@
+{
+  "status": "NOT_VALID",
+  "confidence": 0.6,
+  "source": "rule_based",
+  "explanation": "Rule-based validation completed",
+  "suggestions": [
+    "Function 'validate_code' is too complex (54 statements)"
+  ],
+  "cost": 0.0,
+  "execution_time": 0.04483389854431152,
+  "pattern_key": "NOT_VALID_based-completed-complex-function-rule-statements-too-validate_code-validation"
+}

@@ -1,0 +1,1363 @@
+{
+  "total_files": 827,
+  "total_dirs": 212,
+  "max_depth": 7,
+  "dirs_by_depth": {
+    "0": 14,
+    "1": 56,
+    "2": 51,
+    "3": 10,
+    "4": 53,
+    "5": 21,
+    "6": 7,
+    "7": 0
+  },
+  "files_by_depth": {
+    "0": 29,
+    "1": 91,
+    "2": 261,
+    "3": 251,
+    "4": 3,
+    "5": 129,
+    "6": 50,
+    "7": 13
+  },
+  "dir_contents": {
+    ".": {
+      "files": 29,
+      "dirs": 14,
+      "depth": 0,
+      "path": "."
+    },
+    "config": {
+      "files": 0,
+      "dirs": 0,
+      "depth": 1,
+      "path": "config"
+    },
+    "core": {
+      "files": 6,
+      "dirs": 8,
+      "depth": 1,
+      "path": "core"
+    },
+    "core\\algorithms": {
+      "files": 0,
+      "dirs": 0,
+      "depth": 2,
+      "path": "core\\algorithms"
+    },
+    "core\\ast": {
+      "files": 2,
+      "dirs": 1,
+      "depth": 2,
+      "path": "core\\ast"
+    },
+    "core\\export": {
+      "files": 2,
+      "dirs": 1,
+      "depth": 2,
+      "path": "core\\export"
+    },
+    "core\\ir": {
+      "files": 2,
+      "dirs": 1,
+      "depth": 2,
+      "path": "core\\ir"
+    },
+    "core\\optimization": {
+      "files": 3,
+      "dirs": 1,
+      "depth": 2,
+      "path": "core\\optimization"
+    },
+    "core\\processing": {
+      "files": 5,
+      "dirs": 1,
+      "depth": 2,
+      "path": "core\\processing"
+    },
+    "core\\proof": {
+      "files": 3,
+      "dirs": 1,
+      "depth": 2,
+      "path": "core\\proof"
+    },
+    "coverage": {
+      "files": 1,
+      "dirs": 0,
+      "depth": 1,
+      "path": "coverage"
+    },
+    "data": {
+      "files": 0,
+      "dirs": 5,
+      "depth": 1,
+      "path": "data"
+    },
+    "data\\cache": {
+      "files": 0,
+      "dirs": 0,
+      "depth": 2,
+      "path": "data\\cache"
+    },
+    "data\\combined": {
+      "files": 1,
+      "dirs": 0,
+      "depth": 2,
+      "path": "data\\combined"
+    },
+    "data\\input": {
+      "files": 0,
+      "dirs": 0,
+      "depth": 2,
+      "path": "data\\input"
+    },
+    "data\\nltk_data": {
+      "files": 0,
+      "dirs": 2,
+      "depth": 2,
+      "path": "data\\nltk_data"
+    },
+    "data\\nltk_data\\corpora": {
+      "files": 0,
+      "dirs": 0,
+      "depth": 3,
+      "path": "data\\nltk_data\\corpora"
+    },
+    "data\\nltk_data\\tokenizers": {
+      "files": 0,
+      "dirs": 2,
+      "depth": 3,
+      "path": "data\\nltk_data\\tokenizers"
+    },
+    "data\\nltk_data\\tokenizers\\punkt": {
+      "files": 1,
+      "dirs": 1,
+      "depth": 4,
+      "path": "data\\nltk_data\\tokenizers\\punkt"
+    },
+    "data\\nltk_data\\tokenizers\\punkt\\PY3": {
+      "files": 0,
+      "dirs": 0,
+      "depth": 5,
+      "path": "data\\nltk_data\\tokenizers\\punkt\\PY3"
+    },
+    "data\\nltk_data\\tokenizers\\punkt_tab": {
+      "files": 0,
+      "dirs": 20,
+      "depth": 4,
+      "path": "data\\nltk_data\\tokenizers\\punkt_tab"
+    },
+    "data\\nltk_data\\tokenizers\\punkt_tab\\combined": {
+      "files": 1,
+      "dirs": 0,
+      "depth": 5,
+      "path": "data\\nltk_data\\tokenizers\\punkt_tab\\combined"
+    },
+    "data\\nltk_data\\tokenizers\\punkt_tab\\czech": {
+      "files": 0,
+      "dirs": 0,
+      "depth": 5,
+      "path": "data\\nltk_data\\tokenizers\\punkt_tab\\czech"
+    },
+    "data\\nltk_data\\tokenizers\\punkt_tab\\danish": {
+      "files": 0,
+      "dirs": 0,
+      "depth": 5,
+      "path": "data\\nltk_data\\tokenizers\\punkt_tab\\danish"
+    },
+    "data\\nltk_data\\tokenizers\\punkt_tab\\dutch": {
+      "files": 0,
+      "dirs": 0,
+      "depth": 5,
+      "path": "data\\nltk_data\\tokenizers\\punkt_tab\\dutch"
+    },
+    "data\\nltk_data\\tokenizers\\punkt_tab\\english": {
+      "files": 0,
+      "dirs": 0,
+      "depth": 5,
+      "path": "data\\nltk_data\\tokenizers\\punkt_tab\\english"
+    },
+    "data\\nltk_data\\tokenizers\\punkt_tab\\estonian": {
+      "files": 0,
+      "dirs": 0,
+      "depth": 5,
+      "path": "data\\nltk_data\\tokenizers\\punkt_tab\\estonian"
+    },
+    "data\\nltk_data\\tokenizers\\punkt_tab\\finnish": {
+      "files": 0,
+      "dirs": 0,
+      "depth": 5,
+      "path": "data\\nltk_data\\tokenizers\\punkt_tab\\finnish"
+    },
+    "data\\nltk_data\\tokenizers\\punkt_tab\\french": {
+      "files": 0,
+      "dirs": 0,
+      "depth": 5,
+      "path": "data\\nltk_data\\tokenizers\\punkt_tab\\french"
+    },
+    "data\\nltk_data\\tokenizers\\punkt_tab\\german": {
+      "files": 0,
+      "dirs": 0,
+      "depth": 5,
+      "path": "data\\nltk_data\\tokenizers\\punkt_tab\\german"
+    },
+    "data\\nltk_data\\tokenizers\\punkt_tab\\greek": {
+      "files": 0,
+      "dirs": 0,
+      "depth": 5,
+      "path": "data\\nltk_data\\tokenizers\\punkt_tab\\greek"
+    },
+    "data\\nltk_data\\tokenizers\\punkt_tab\\italian": {
+      "files": 0,
+      "dirs": 0,
+      "depth": 5,
+      "path": "data\\nltk_data\\tokenizers\\punkt_tab\\italian"
+    },
+    "data\\nltk_data\\tokenizers\\punkt_tab\\malayalam": {
+      "files": 0,
+      "dirs": 0,
+      "depth": 5,
+      "path": "data\\nltk_data\\tokenizers\\punkt_tab\\malayalam"
+    },
+    "data\\nltk_data\\tokenizers\\punkt_tab\\norwegian": {
+      "files": 0,
+      "dirs": 0,
+      "depth": 5,
+      "path": "data\\nltk_data\\tokenizers\\punkt_tab\\norwegian"
+    },
+    "data\\nltk_data\\tokenizers\\punkt_tab\\polish": {
+      "files": 0,
+      "dirs": 0,
+      "depth": 5,
+      "path": "data\\nltk_data\\tokenizers\\punkt_tab\\polish"
+    },
+    "data\\nltk_data\\tokenizers\\punkt_tab\\portuguese": {
+      "files": 0,
+      "dirs": 0,
+      "depth": 5,
+      "path": "data\\nltk_data\\tokenizers\\punkt_tab\\portuguese"
+    },
+    "data\\nltk_data\\tokenizers\\punkt_tab\\russian": {
+      "files": 0,
+      "dirs": 0,
+      "depth": 5,
+      "path": "data\\nltk_data\\tokenizers\\punkt_tab\\russian"
+    },
+    "data\\nltk_data\\tokenizers\\punkt_tab\\slovene": {
+      "files": 0,
+      "dirs": 0,
+      "depth": 5,
+      "path": "data\\nltk_data\\tokenizers\\punkt_tab\\slovene"
+    },
+    "data\\nltk_data\\tokenizers\\punkt_tab\\spanish": {
+      "files": 0,
+      "dirs": 0,
+      "depth": 5,
+      "path": "data\\nltk_data\\tokenizers\\punkt_tab\\spanish"
+    },
+    "data\\nltk_data\\tokenizers\\punkt_tab\\swedish": {
+      "files": 0,
+      "dirs": 0,
+      "depth": 5,
+      "path": "data\\nltk_data\\tokenizers\\punkt_tab\\swedish"
+    },
+    "data\\nltk_data\\tokenizers\\punkt_tab\\turkish": {
+      "files": 0,
+      "dirs": 0,
+      "depth": 5,
+      "path": "data\\nltk_data\\tokenizers\\punkt_tab\\turkish"
+    },
+    "data\\output": {
+      "files": 0,
+      "dirs": 0,
+      "depth": 2,
+      "path": "data\\output"
+    },
+    "docs": {
+      "files": 40,
+      "dirs": 8,
+      "depth": 1,
+      "path": "docs"
+    },
+    "docs\\api": {
+      "files": 0,
+      "dirs": 0,
+      "depth": 2,
+      "path": "docs\\api"
+    },
+    "docs\\auto_generated": {
+      "files": 1,
+      "dirs": 15,
+      "depth": 2,
+      "path": "docs\\auto_generated"
+    },
+    "docs\\auto_generated\\config": {
+      "files": 2,
+      "dirs": 0,
+      "depth": 3,
+      "path": "docs\\auto_generated\\config"
+    },
+    "docs\\auto_generated\\core": {
+      "files": 15,
+      "dirs": 0,
+      "depth": 3,
+      "path": "docs\\auto_generated\\core"
+    },
+    "docs\\auto_generated\\data": {
+      "files": 2,
+      "dirs": 0,
+      "depth": 3,
+      "path": "docs\\auto_generated\\data"
+    },
+    "docs\\auto_generated\\docs": {
+      "files": 2,
+      "dirs": 0,
+      "depth": 3,
+      "path": "docs\\auto_generated\\docs"
+    },
+    "docs\\auto_generated\\document": {
+      "files": 2,
+      "dirs": 0,
+      "depth": 3,
+      "path": "docs\\auto_generated\\document"
+    },
+    "docs\\auto_generated\\legacy": {
+      "files": 55,
+      "dirs": 0,
+      "depth": 3,
+      "path": "docs\\auto_generated\\legacy"
+    },
+    "docs\\auto_generated\\list": {
+      "files": 2,
+      "dirs": 0,
+      "depth": 3,
+      "path": "docs\\auto_generated\\list"
+    },
+    "docs\\auto_generated\\misc": {
+      "files": 2,
+      "dirs": 0,
+      "depth": 3,
+      "path": "docs\\auto_generated\\misc"
+    },
+    "docs\\auto_generated\\modules": {
+      "files": 27,
+      "dirs": 0,
+      "depth": 3,
+      "path": "docs\\auto_generated\\modules"
+    },
+    "docs\\auto_generated\\quick": {
+      "files": 2,
+      "dirs": 0,
+      "depth": 3,
+      "path": "docs\\auto_generated\\quick"
+    },
+    "docs\\auto_generated\\tests": {
+      "files": 6,
+      "dirs": 0,
+      "depth": 3,
+      "path": "docs\\auto_generated\\tests"
+    },
+    "docs\\auto_generated\\tools": {
+      "files": 67,
+      "dirs": 0,
+      "depth": 3,
+      "path": "docs\\auto_generated\\tools"
+    },
+    "docs\\auto_generated\\ui": {
+      "files": 14,
+      "dirs": 0,
+      "depth": 3,
+      "path": "docs\\auto_generated\\ui"
+    },
+    "docs\\auto_generated\\utils": {
+      "files": 14,
+      "dirs": 0,
+      "depth": 3,
+      "path": "docs\\auto_generated\\utils"
+    },
+    "docs\\auto_generated\\verify": {
+      "files": 2,
+      "dirs": 0,
+      "depth": 3,
+      "path": "docs\\auto_generated\\verify"
+    },
+    "docs\\combined": {
+      "files": 1,
+      "dirs": 0,
+      "depth": 2,
+      "path": "docs\\combined"
+    },
+    "docs\\developer": {
+      "files": 0,
+      "dirs": 0,
+      "depth": 2,
+      "path": "docs\\developer"
+    },
+    "docs\\diagrams": {
+      "files": 2,
+      "dirs": 0,
+      "depth": 2,
+      "path": "docs\\diagrams"
+    },
+    "docs\\examples": {
+      "files": 0,
+      "dirs": 0,
+      "depth": 2,
+      "path": "docs\\examples"
+    },
+    "docs\\guides": {
+      "files": 0,
+      "dirs": 0,
+      "depth": 2,
+      "path": "docs\\guides"
+    },
+    "docs\\user": {
+      "files": 0,
+      "dirs": 0,
+      "depth": 2,
+      "path": "docs\\user"
+    },
+    "legacy": {
+      "files": 0,
+      "dirs": 1,
+      "depth": 1,
+      "path": "legacy"
+    },
+    "legacy\\src": {
+      "files": 1,
+      "dirs": 3,
+      "depth": 2,
+      "path": "legacy\\src"
+    },
+    "legacy\\src\\combined": {
+      "files": 1,
+      "dirs": 1,
+      "depth": 3,
+      "path": "legacy\\src\\combined"
+    },
+    "legacy\\src\\combined\\modules_hierarchical": {
+      "files": 0,
+      "dirs": 0,
+      "depth": 4,
+      "path": "legacy\\src\\combined\\modules_hierarchical"
+    },
+    "legacy\\src\\core": {
+      "files": 0,
+      "dirs": 0,
+      "depth": 3,
+      "path": "legacy\\src\\core"
+    },
+    "legacy\\src\\modules": {
+      "files": 1,
+      "dirs": 1,
+      "depth": 3,
+      "path": "legacy\\src\\modules"
+    },
+    "legacy\\src\\modules\\hierarchical": {
+      "files": 1,
+      "dirs": 0,
+      "depth": 4,
+      "path": "legacy\\src\\modules\\hierarchical"
+    },
+    "modules": {
+      "files": 4,
+      "dirs": 5,
+      "depth": 1,
+      "path": "modules"
+    },
+    "modules\\hierarchical": {
+      "files": 2,
+      "dirs": 1,
+      "depth": 2,
+      "path": "modules\\hierarchical"
+    },
+    "modules\\resource": {
+      "files": 0,
+      "dirs": 1,
+      "depth": 2,
+      "path": "modules\\resource"
+    },
+    "modules\\resource\\cleanup_critical_issues": {
+      "files": 15,
+      "dirs": 1,
+      "depth": 3,
+      "path": "modules\\resource\\cleanup_critical_issues"
+    },
+    "modules\\resource_oriented": {
+      "files": 1,
+      "dirs": 5,
+      "depth": 2,
+      "path": "modules\\resource_oriented"
+    },
+    "modules\\resource_oriented\\cpu": {
+      "files": 1,
+      "dirs": 0,
+      "depth": 3,
+      "path": "modules\\resource_oriented\\cpu"
+    },
+    "modules\\resource_oriented\\gpu": {
+      "files": 1,
+      "dirs": 0,
+      "depth": 3,
+      "path": "modules\\resource_oriented\\gpu"
+    },
+    "modules\\resource_oriented\\memory": {
+      "files": 1,
+      "dirs": 0,
+      "depth": 3,
+      "path": "modules\\resource_oriented\\memory"
+    },
+    "modules\\resource_oriented\\network": {
+      "files": 1,
+      "dirs": 0,
+      "depth": 3,
+      "path": "modules\\resource_oriented\\network"
+    },
+    "modules\\standard": {
+      "files": 19,
+      "dirs": 5,
+      "depth": 2,
+      "path": "modules\\standard"
+    },
+    "modules\\standard\\analysis": {
+      "files": 3,
+      "dirs": 1,
+      "depth": 3,
+      "path": "modules\\standard\\analysis"
+    },
+    "modules\\standard\\export": {
+      "files": 3,
+      "dirs": 1,
+      "depth": 3,
+      "path": "modules\\standard\\export"
+    },
+    "modules\\standard\\organization": {
+      "files": 3,
+      "dirs": 1,
+      "depth": 3,
+      "path": "modules\\standard\\organization"
+    },
+    "modules\\standard\\processing": {
+      "files": 5,
+      "dirs": 1,
+      "depth": 3,
+      "path": "modules\\standard\\processing"
+    },
+    "nltk_data": {
+      "files": 0,
+      "dirs": 1,
+      "depth": 1,
+      "path": "nltk_data"
+    },
+    "nltk_data\\corpora": {
+      "files": 1,
+      "dirs": 0,
+      "depth": 2,
+      "path": "nltk_data\\corpora"
+    },
+    "reports": {
+      "files": 3,
+      "dirs": 0,
+      "depth": 1,
+      "path": "reports"
+    },
+    "tests": {
+      "files": 0,
+      "dirs": 3,
+      "depth": 1,
+      "path": "tests"
+    },
+    "tests\\e2e": {
+      "files": 0,
+      "dirs": 0,
+      "depth": 2,
+      "path": "tests\\e2e"
+    },
+    "tests\\integration": {
+      "files": 43,
+      "dirs": 0,
+      "depth": 2,
+      "path": "tests\\integration"
+    },
+    "tests\\unit": {
+      "files": 78,
+      "dirs": 0,
+      "depth": 2,
+      "path": "tests\\unit"
+    },
+    "tools": {
+      "files": 29,
+      "dirs": 8,
+      "depth": 1,
+      "path": "tools"
+    },
+    "tools\\fractal": {
+      "files": 7,
+      "dirs": 1,
+      "depth": 2,
+      "path": "tools\\fractal"
+    },
+    "tools\\refactoring": {
+      "files": 5,
+      "dirs": 1,
+      "depth": 2,
+      "path": "tools\\refactoring"
+    },
+    "tools\\reorganization": {
+      "files": 4,
+      "dirs": 1,
+      "depth": 2,
+      "path": "tools\\reorganization"
+    },
+    "tools\\resource": {
+      "files": 5,
+      "dirs": 1,
+      "depth": 2,
+      "path": "tools\\resource"
+    },
+    "tools\\scripts": {
+      "files": 2,
+      "dirs": 0,
+      "depth": 2,
+      "path": "tools\\scripts"
+    },
+    "tools\\shadow_tree": {
+      "files": 4,
+      "dirs": 2,
+      "depth": 2,
+      "path": "tools\\shadow_tree"
+    },
+    "tools\\shadow_tree\\output": {
+      "files": 2,
+      "dirs": 1,
+      "depth": 3,
+      "path": "tools\\shadow_tree\\output"
+    },
+    "tools\\shadow_tree\\output\\src": {
+      "files": 1,
+      "dirs": 32,
+      "depth": 4,
+      "path": "tools\\shadow_tree\\output\\src"
+    },
+    "tools\\shadow_tree\\output\\src\\ai_suggester": {
+      "files": 1,
+      "dirs": 0,
+      "depth": 5,
+      "path": "tools\\shadow_tree\\output\\src\\ai_suggester"
+    },
+    "tools\\shadow_tree\\output\\src\\ast_explorer": {
+      "files": 1,
+      "dirs": 0,
+      "depth": 5,
+      "path": "tools\\shadow_tree\\output\\src\\ast_explorer"
+    },
+    "tools\\shadow_tree\\output\\src\\background_system": {
+      "files": 1,
+      "dirs": 0,
+      "depth": 5,
+      "path": "tools\\shadow_tree\\output\\src\\background_system"
+    },
+    "tools\\shadow_tree\\output\\src\\bootstrap": {
+      "files": 1,
+      "dirs": 0,
+      "depth": 5,
+      "path": "tools\\shadow_tree\\output\\src\\bootstrap"
+    },
+    "tools\\shadow_tree\\output\\src\\combined": {
+      "files": 22,
+      "dirs": 0,
+      "depth": 5,
+      "path": "tools\\shadow_tree\\output\\src\\combined"
+    },
+    "tools\\shadow_tree\\output\\src\\core": {
+      "files": 2,
+      "dirs": 7,
+      "depth": 5,
+      "path": "tools\\shadow_tree\\output\\src\\core"
+    },
+    "tools\\shadow_tree\\output\\src\\core\\combined": {
+      "files": 4,
+      "dirs": 0,
+      "depth": 6,
+      "path": "tools\\shadow_tree\\output\\src\\core\\combined"
+    },
+    "tools\\shadow_tree\\output\\src\\core\\hierarchical_core": {
+      "files": 2,
+      "dirs": 0,
+      "depth": 6,
+      "path": "tools\\shadow_tree\\output\\src\\core\\hierarchical_core"
+    },
+    "tools\\shadow_tree\\output\\src\\core\\hierarchical_module": {
+      "files": 1,
+      "dirs": 0,
+      "depth": 6,
+      "path": "tools\\shadow_tree\\output\\src\\core\\hierarchical_module"
+    },
+    "tools\\shadow_tree\\output\\src\\core\\simple_hierarchical_core": {
+      "files": 2,
+      "dirs": 0,
+      "depth": 6,
+      "path": "tools\\shadow_tree\\output\\src\\core\\simple_hierarchical_core"
+    },
+    "tools\\shadow_tree\\output\\src\\core\\state_manager": {
+      "files": 1,
+      "dirs": 0,
+      "depth": 6,
+      "path": "tools\\shadow_tree\\output\\src\\core\\state_manager"
+    },
+    "tools\\shadow_tree\\output\\src\\core\\ui_components": {
+      "files": 1,
+      "dirs": 0,
+      "depth": 6,
+      "path": "tools\\shadow_tree\\output\\src\\core\\ui_components"
+    },
+    "tools\\shadow_tree\\output\\src\\core\\unified_core": {
+      "files": 2,
+      "dirs": 0,
+      "depth": 6,
+      "path": "tools\\shadow_tree\\output\\src\\core\\unified_core"
+    },
+    "tools\\shadow_tree\\output\\src\\core_flat": {
+      "files": 16,
+      "dirs": 1,
+      "depth": 5,
+      "path": "tools\\shadow_tree\\output\\src\\core_flat"
+    },
+    "tools\\shadow_tree\\output\\src\\demo_hierarchical": {
+      "files": 1,
+      "dirs": 0,
+      "depth": 5,
+      "path": "tools\\shadow_tree\\output\\src\\demo_hierarchical"
+    },
+    "tools\\shadow_tree\\output\\src\\exporter": {
+      "files": 1,
+      "dirs": 0,
+      "depth": 5,
+      "path": "tools\\shadow_tree\\output\\src\\exporter"
+    },
+    "tools\\shadow_tree\\output\\src\\exporter_optimized": {
+      "files": 1,
+      "dirs": 0,
+      "depth": 5,
+      "path": "tools\\shadow_tree\\output\\src\\exporter_optimized"
+    },
+    "tools\\shadow_tree\\output\\src\\file_utils": {
+      "files": 2,
+      "dirs": 0,
+      "depth": 5,
+      "path": "tools\\shadow_tree\\output\\src\\file_utils"
+    },
+    "tools\\shadow_tree\\output\\src\\graph_builder": {
+      "files": 1,
+      "dirs": 0,
+      "depth": 5,
+      "path": "tools\\shadow_tree\\output\\src\\graph_builder"
+    },
+    "tools\\shadow_tree\\output\\src\\hierarchical_app": {
+      "files": 1,
+      "dirs": 0,
+      "depth": 5,
+      "path": "tools\\shadow_tree\\output\\src\\hierarchical_app"
+    },
+    "tools\\shadow_tree\\output\\src\\hierarchical_main": {
+      "files": 1,
+      "dirs": 0,
+      "depth": 5,
+      "path": "tools\\shadow_tree\\output\\src\\hierarchical_main"
+    },
+    "tools\\shadow_tree\\output\\src\\imports": {
+      "files": 1,
+      "dirs": 0,
+      "depth": 5,
+      "path": "tools\\shadow_tree\\output\\src\\imports"
+    },
+    "tools\\shadow_tree\\output\\src\\ir_model": {
+      "files": 1,
+      "dirs": 0,
+      "depth": 5,
+      "path": "tools\\shadow_tree\\output\\src\\ir_model"
+    },
+    "tools\\shadow_tree\\output\\src\\modules": {
+      "files": 2,
+      "dirs": 13,
+      "depth": 5,
+      "path": "tools\\shadow_tree\\output\\src\\modules"
+    },
+    "tools\\shadow_tree\\output\\src\\modules\\ast_parser_module": {
+      "files": 1,
+      "dirs": 0,
+      "depth": 6,
+      "path": "tools\\shadow_tree\\output\\src\\modules\\ast_parser_module"
+    },
+    "tools\\shadow_tree\\output\\src\\modules\\combined": {
+      "files": 11,
+      "dirs": 0,
+      "depth": 6,
+      "path": "tools\\shadow_tree\\output\\src\\modules\\combined"
+    },
+    "tools\\shadow_tree\\output\\src\\modules\\exporter_module": {
+      "files": 1,
+      "dirs": 0,
+      "depth": 6,
+      "path": "tools\\shadow_tree\\output\\src\\modules\\exporter_module"
+    },
+    "tools\\shadow_tree\\output\\src\\modules\\graph_builder_module": {
+      "files": 1,
+      "dirs": 0,
+      "depth": 6,
+      "path": "tools\\shadow_tree\\output\\src\\modules\\graph_builder_module"
+    },
+    "tools\\shadow_tree\\output\\src\\modules\\hierarchical": {
+      "files": 1,
+      "dirs": 7,
+      "depth": 6,
+      "path": "tools\\shadow_tree\\output\\src\\modules\\hierarchical"
+    },
+    "tools\\shadow_tree\\output\\src\\modules\\hierarchical\\analysis_core_module": {
+      "files": 1,
+      "dirs": 0,
+      "depth": 7,
+      "path": "tools\\shadow_tree\\output\\src\\modules\\hierarchical\\analysis_core_module"
+    },
+    "tools\\shadow_tree\\output\\src\\modules\\hierarchical\\ast_parser_module": {
+      "files": 1,
+      "dirs": 0,
+      "depth": 7,
+      "path": "tools\\shadow_tree\\output\\src\\modules\\hierarchical\\ast_parser_module"
+    },
+    "tools\\shadow_tree\\output\\src\\modules\\hierarchical\\combined": {
+      "files": 7,
+      "dirs": 0,
+      "depth": 7,
+      "path": "tools\\shadow_tree\\output\\src\\modules\\hierarchical\\combined"
+    },
+    "tools\\shadow_tree\\output\\src\\modules\\hierarchical\\ir_generator_module": {
+      "files": 1,
+      "dirs": 0,
+      "depth": 7,
+      "path": "tools\\shadow_tree\\output\\src\\modules\\hierarchical\\ir_generator_module"
+    },
+    "tools\\shadow_tree\\output\\src\\modules\\hierarchical\\optimization_core_module": {
+      "files": 1,
+      "dirs": 0,
+      "depth": 7,
+      "path": "tools\\shadow_tree\\output\\src\\modules\\hierarchical\\optimization_core_module"
+    },
+    "tools\\shadow_tree\\output\\src\\modules\\hierarchical\\optimizer_module": {
+      "files": 1,
+      "dirs": 0,
+      "depth": 7,
+      "path": "tools\\shadow_tree\\output\\src\\modules\\hierarchical\\optimizer_module"
+    },
+    "tools\\shadow_tree\\output\\src\\modules\\hierarchical\\proof_engine_module": {
+      "files": 1,
+      "dirs": 0,
+      "depth": 7,
+      "path": "tools\\shadow_tree\\output\\src\\modules\\hierarchical\\proof_engine_module"
+    },
+    "tools\\shadow_tree\\output\\src\\modules\\hierarchical_flat": {
+      "files": 15,
+      "dirs": 0,
+      "depth": 6,
+      "path": "tools\\shadow_tree\\output\\src\\modules\\hierarchical_flat"
+    },
+    "tools\\shadow_tree\\output\\src\\modules\\ir_generator_module": {
+      "files": 1,
+      "dirs": 0,
+      "depth": 6,
+      "path": "tools\\shadow_tree\\output\\src\\modules\\ir_generator_module"
+    },
+    "tools\\shadow_tree\\output\\src\\modules\\module_explorer_module": {
+      "files": 1,
+      "dirs": 0,
+      "depth": 6,
+      "path": "tools\\shadow_tree\\output\\src\\modules\\module_explorer_module"
+    },
+    "tools\\shadow_tree\\output\\src\\modules\\optimization_testbed_module": {
+      "files": 1,
+      "dirs": 0,
+      "depth": 6,
+      "path": "tools\\shadow_tree\\output\\src\\modules\\optimization_testbed_module"
+    },
+    "tools\\shadow_tree\\output\\src\\modules\\optimizer_module": {
+      "files": 1,
+      "dirs": 0,
+      "depth": 6,
+      "path": "tools\\shadow_tree\\output\\src\\modules\\optimizer_module"
+    },
+    "tools\\shadow_tree\\output\\src\\modules\\project_organizer_module": {
+      "files": 1,
+      "dirs": 0,
+      "depth": 6,
+      "path": "tools\\shadow_tree\\output\\src\\modules\\project_organizer_module"
+    },
+    "tools\\shadow_tree\\output\\src\\modules\\proof_engine_module": {
+      "files": 1,
+      "dirs": 0,
+      "depth": 6,
+      "path": "tools\\shadow_tree\\output\\src\\modules\\proof_engine_module"
+    },
+    "tools\\shadow_tree\\output\\src\\modules\\shadow_tree_module": {
+      "files": 1,
+      "dirs": 0,
+      "depth": 6,
+      "path": "tools\\shadow_tree\\output\\src\\modules\\shadow_tree_module"
+    },
+    "tools\\shadow_tree\\output\\src\\modules_flat": {
+      "files": 53,
+      "dirs": 0,
+      "depth": 5,
+      "path": "tools\\shadow_tree\\output\\src\\modules_flat"
+    },
+    "tools\\shadow_tree\\output\\src\\module_system": {
+      "files": 1,
+      "dirs": 0,
+      "depth": 5,
+      "path": "tools\\shadow_tree\\output\\src\\module_system"
+    },
+    "tools\\shadow_tree\\output\\src\\new_main": {
+      "files": 1,
+      "dirs": 0,
+      "depth": 5,
+      "path": "tools\\shadow_tree\\output\\src\\new_main"
+    },
+    "tools\\shadow_tree\\output\\src\\new_unified_ui": {
+      "files": 2,
+      "dirs": 0,
+      "depth": 5,
+      "path": "tools\\shadow_tree\\output\\src\\new_unified_ui"
+    },
+    "tools\\shadow_tree\\output\\src\\optimizer": {
+      "files": 1,
+      "dirs": 0,
+      "depth": 5,
+      "path": "tools\\shadow_tree\\output\\src\\optimizer"
+    },
+    "tools\\shadow_tree\\output\\src\\proof_engine": {
+      "files": 1,
+      "dirs": 0,
+      "depth": 5,
+      "path": "tools\\shadow_tree\\output\\src\\proof_engine"
+    },
+    "tools\\shadow_tree\\output\\src\\runtime_optimization": {
+      "files": 1,
+      "dirs": 0,
+      "depth": 5,
+      "path": "tools\\shadow_tree\\output\\src\\runtime_optimization"
+    },
+    "tools\\shadow_tree\\output\\src\\runtime_utils": {
+      "files": 2,
+      "dirs": 0,
+      "depth": 5,
+      "path": "tools\\shadow_tree\\output\\src\\runtime_utils"
+    },
+    "tools\\shadow_tree\\output\\src\\starter_pipeline": {
+      "files": 1,
+      "dirs": 0,
+      "depth": 5,
+      "path": "tools\\shadow_tree\\output\\src\\starter_pipeline"
+    },
+    "tools\\shadow_tree\\output\\src\\ui_renderers": {
+      "files": 1,
+      "dirs": 0,
+      "depth": 5,
+      "path": "tools\\shadow_tree\\output\\src\\ui_renderers"
+    },
+    "tools\\shadow_tree\\output\\src\\ui_renderers_part2": {
+      "files": 1,
+      "dirs": 0,
+      "depth": 5,
+      "path": "tools\\shadow_tree\\output\\src\\ui_renderers_part2"
+    },
+    "tools\\shadow_tree\\output\\src\\ui_renderers_part3": {
+      "files": 1,
+      "dirs": 0,
+      "depth": 5,
+      "path": "tools\\shadow_tree\\output\\src\\ui_renderers_part3"
+    },
+    "tools\\shadow_tree\\output\\src\\ui_utils": {
+      "files": 2,
+      "dirs": 0,
+      "depth": 5,
+      "path": "tools\\shadow_tree\\output\\src\\ui_utils"
+    },
+    "tools\\shadow_tree\\output\\src\\unified_ui": {
+      "files": 2,
+      "dirs": 0,
+      "depth": 5,
+      "path": "tools\\shadow_tree\\output\\src\\unified_ui"
+    },
+    "tools\\shadow_tree\\output\\src\\utils": {
+      "files": 2,
+      "dirs": 0,
+      "depth": 5,
+      "path": "tools\\shadow_tree\\output\\src\\utils"
+    },
+    "tools\\testing": {
+      "files": 3,
+      "dirs": 1,
+      "depth": 2,
+      "path": "tools\\testing"
+    },
+    "ui": {
+      "files": 5,
+      "dirs": 5,
+      "depth": 1,
+      "path": "ui"
+    },
+    "ui\\components": {
+      "files": 3,
+      "dirs": 1,
+      "depth": 2,
+      "path": "ui\\components"
+    },
+    "ui\\pages": {
+      "files": 1,
+      "dirs": 0,
+      "depth": 2,
+      "path": "ui\\pages"
+    },
+    "ui\\renderers": {
+      "files": 5,
+      "dirs": 1,
+      "depth": 2,
+      "path": "ui\\renderers"
+    },
+    "ui\\templates": {
+      "files": 1,
+      "dirs": 0,
+      "depth": 2,
+      "path": "ui\\templates"
+    },
+    "utils": {
+      "files": 3,
+      "dirs": 12,
+      "depth": 1,
+      "path": "utils"
+    },
+    "utils\\combined": {
+      "files": 1,
+      "dirs": 0,
+      "depth": 2,
+      "path": "utils\\combined"
+    },
+    "utils\\data": {
+      "files": 2,
+      "dirs": 0,
+      "depth": 2,
+      "path": "utils\\data"
+    },
+    "utils\\file": {
+      "files": 35,
+      "dirs": 1,
+      "depth": 2,
+      "path": "utils\\file"
+    },
+    "utils\\import": {
+      "files": 3,
+      "dirs": 0,
+      "depth": 2,
+      "path": "utils\\import"
+    },
+    "utils\\json": {
+      "files": 0,
+      "dirs": 0,
+      "depth": 2,
+      "path": "utils\\json"
+    },
+    "utils\\nlp": {
+      "files": 1,
+      "dirs": 0,
+      "depth": 2,
+      "path": "utils\\nlp"
+    },
+    "utils\\path": {
+      "files": 1,
+      "dirs": 1,
+      "depth": 2,
+      "path": "utils\\path"
+    },
+    "utils\\runtime": {
+      "files": 2,
+      "dirs": 0,
+      "depth": 2,
+      "path": "utils\\runtime"
+    },
+    "utils\\string": {
+      "files": 4,
+      "dirs": 1,
+      "depth": 2,
+      "path": "utils\\string"
+    },
+    "utils\\system": {
+      "files": 3,
+      "dirs": 1,
+      "depth": 2,
+      "path": "utils\\system"
+    },
+    "utils\\time": {
+      "files": 2,
+      "dirs": 0,
+      "depth": 2,
+      "path": "utils\\time"
+    }
+  },
+  "files_by_extension": {
+    ".py": 377,
+    ".json": 7,
+    ".md": 408,
+    ".txt": 4,
+    "no_extension": 2,
+    ".tab": 2,
+    ".pickle": 19,
+    ".zip": 4,
+    ".png": 1,
+    ".bat": 1,
+    ".html": 1,
+    ".j2": 1
+  },
+  "dirs_with_most_files": [
+    {
+      "files": 78,
+      "dirs": 0,
+      "depth": 2,
+      "path": "tests\\unit"
+    },
+    {
+      "files": 67,
+      "dirs": 0,
+      "depth": 3,
+      "path": "docs\\auto_generated\\tools"
+    },
+    {
+      "files": 55,
+      "dirs": 0,
+      "depth": 3,
+      "path": "docs\\auto_generated\\legacy"
+    },
+    {
+      "files": 53,
+      "dirs": 0,
+      "depth": 5,
+      "path": "tools\\shadow_tree\\output\\src\\modules_flat"
+    },
+    {
+      "files": 43,
+      "dirs": 0,
+      "depth": 2,
+      "path": "tests\\integration"
+    },
+    {
+      "files": 40,
+      "dirs": 8,
+      "depth": 1,
+      "path": "docs"
+    },
+    {
+      "files": 35,
+      "dirs": 1,
+      "depth": 2,
+      "path": "utils\\file"
+    },
+    {
+      "files": 29,
+      "dirs": 14,
+      "depth": 0,
+      "path": "."
+    },
+    {
+      "files": 29,
+      "dirs": 8,
+      "depth": 1,
+      "path": "tools"
+    },
+    {
+      "files": 27,
+      "dirs": 0,
+      "depth": 3,
+      "path": "docs\\auto_generated\\modules"
+    }
+  ],
+  "dirs_with_most_subdirs": [
+    {
+      "files": 1,
+      "dirs": 32,
+      "depth": 4,
+      "path": "tools\\shadow_tree\\output\\src"
+    },
+    {
+      "files": 0,
+      "dirs": 20,
+      "depth": 4,
+      "path": "data\\nltk_data\\tokenizers\\punkt_tab"
+    },
+    {
+      "files": 1,
+      "dirs": 15,
+      "depth": 2,
+      "path": "docs\\auto_generated"
+    },
+    {
+      "files": 29,
+      "dirs": 14,
+      "depth": 0,
+      "path": "."
+    },
+    {
+      "files": 2,
+      "dirs": 13,
+      "depth": 5,
+      "path": "tools\\shadow_tree\\output\\src\\modules"
+    },
+    {
+      "files": 3,
+      "dirs": 12,
+      "depth": 1,
+      "path": "utils"
+    },
+    {
+      "files": 40,
+      "dirs": 8,
+      "depth": 1,
+      "path": "docs"
+    },
+    {
+      "files": 29,
+      "dirs": 8,
+      "depth": 1,
+      "path": "tools"
+    },
+    {
+      "files": 6,
+      "dirs": 8,
+      "depth": 1,
+      "path": "core"
+    },
+    {
+      "files": 2,
+      "dirs": 7,
+      "depth": 5,
+      "path": "tools\\shadow_tree\\output\\src\\core"
+    }
+  ],
+  "empty_dirs": [
+    "config",
+    "core\\algorithms",
+    "data\\cache",
+    "data\\input",
+    "data\\nltk_data\\corpora",
+    "data\\nltk_data\\tokenizers\\punkt\\PY3",
+    "data\\nltk_data\\tokenizers\\punkt_tab\\czech",
+    "data\\nltk_data\\tokenizers\\punkt_tab\\danish",
+    "data\\nltk_data\\tokenizers\\punkt_tab\\dutch",
+    "data\\nltk_data\\tokenizers\\punkt_tab\\english",
+    "data\\nltk_data\\tokenizers\\punkt_tab\\estonian",
+    "data\\nltk_data\\tokenizers\\punkt_tab\\finnish",
+    "data\\nltk_data\\tokenizers\\punkt_tab\\french",
+    "data\\nltk_data\\tokenizers\\punkt_tab\\german",
+    "data\\nltk_data\\tokenizers\\punkt_tab\\greek",
+    "data\\nltk_data\\tokenizers\\punkt_tab\\italian",
+    "data\\nltk_data\\tokenizers\\punkt_tab\\malayalam",
+    "data\\nltk_data\\tokenizers\\punkt_tab\\norwegian",
+    "data\\nltk_data\\tokenizers\\punkt_tab\\polish",
+    "data\\nltk_data\\tokenizers\\punkt_tab\\portuguese",
+    "data\\nltk_data\\tokenizers\\punkt_tab\\russian",
+    "data\\nltk_data\\tokenizers\\punkt_tab\\slovene",
+    "data\\nltk_data\\tokenizers\\punkt_tab\\spanish",
+    "data\\nltk_data\\tokenizers\\punkt_tab\\swedish",
+    "data\\nltk_data\\tokenizers\\punkt_tab\\turkish",
+    "data\\output",
+    "docs\\api",
+    "docs\\developer",
+    "docs\\examples",
+    "docs\\guides",
+    "docs\\user",
+    "legacy\\src\\combined\\modules_hierarchical",
+    "legacy\\src\\core",
+    "tests\\e2e",
+    "utils\\json"
+  ],
+  "depth_distribution": {
+    "0": {
+      "dirs": 14,
+      "files": 29,
+      "total": 43,
+      "percentage": 4.14
+    },
+    "1": {
+      "dirs": 56,
+      "files": 91,
+      "total": 147,
+      "percentage": 14.15
+    },
+    "2": {
+      "dirs": 51,
+      "files": 261,
+      "total": 312,
+      "percentage": 30.03
+    },
+    "3": {
+      "dirs": 10,
+      "files": 251,
+      "total": 261,
+      "percentage": 25.12
+    },
+    "4": {
+      "dirs": 53,
+      "files": 3,
+      "total": 56,
+      "percentage": 5.39
+    },
+    "5": {
+      "dirs": 21,
+      "files": 129,
+      "total": 150,
+      "percentage": 14.44
+    },
+    "6": {
+      "dirs": 7,
+      "files": 50,
+      "total": 57,
+      "percentage": 5.49
+    },
+    "7": {
+      "dirs": 0,
+      "files": 13,
+      "total": 13,
+      "percentage": 1.25
+    }
+  },
+  "breadth_distribution": {
+    "0": 35,
+    "1": 57,
+    "2": 28,
+    "3": 8,
+    "4": 10,
+    "5": 3,
+    "6": 8,
+    "7": 1,
+    "8": 2,
+    "9": 2,
+    "10": 1,
+    "11": 1,
+    "14": 3,
+    "15": 4,
+    "16": 2,
+    "17": 1,
+    "20": 1,
+    "22": 1,
+    "24": 1,
+    "27": 1,
+    "33": 1,
+    "36": 1,
+    "37": 1,
+    "43": 2,
+    "48": 1,
+    "53": 1,
+    "55": 1,
+    "67": 1,
+    "78": 1
+  }
+}

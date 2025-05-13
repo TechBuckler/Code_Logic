@@ -1,0 +1,16 @@
+{
+  "status": "NOT_VALID",
+  "confidence": 0.95,
+  "source": "rule_based",
+  "explanation": "Rule-based validation completed",
+  "suggestions": [
+    "Syntax error at line 26: invalid syntax",
+    "Error checking complexity: invalid syntax (<unknown>, line 26)",
+    "Error checking naming conventions: invalid syntax (<unknown>, line 26)",
+    "Error checking imports: invalid syntax (<unknown>, line 26)",
+    "Error checking docstrings: invalid syntax (<unknown>, line 26)"
+  ],
+  "cost": 0.0,
+  "execution_time": 0.0012943744659423828,
+  "pattern_key": "NOT_VALID_based-checking-completed-complexity-conventions-docstrings-error-imports-invalid-line-naming-rule-syntax-unknown-validation"
+}

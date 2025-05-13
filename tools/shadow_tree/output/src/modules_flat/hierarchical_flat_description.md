@@ -1,0 +1,16 @@
+# hierarchical
+
+
+
+## Code Path
+
+`C:\Users\timge\Downloads\code_logic_tool_full\src\modules\hierarchical`
+
+## Children
+
+- [analysis_core_module.py](./analysis_core_module/description.md): Analysis Core Module - Hierarchical version This module serves as the core for all analysis-related ...
+- [ast_parser_module.py](./ast_parser_module/description.md): Hierarchical AST Parser Module This module extends the base AST parser module with hierarchical capa...
+- [ir_generator_module.py](./ir_generator_module/description.md): Hierarchical IR Generator Module This module extends the base IR generator module with hierarchical ...
+- [optimization_core_module.py](./optimization_core_module/description.md): Optimization Core Module - Hierarchical version This module serves as the core for all optimization-...
+- [optimizer_module.py](./optimizer_module/description.md): Contains optimizer module, init, handle ir generation complete and 3 more
+- [proof_engine_module.py](./proof_engine_module/description.md): Hierarchical Proof Engine Module This module extends the base proof engine module with hierarchical ...

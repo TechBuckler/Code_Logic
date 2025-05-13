@@ -1,0 +1,3 @@
+"""
+analysis modules package.
+"""

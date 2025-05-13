@@ -1,0 +1,3 @@
+"""
+resource_oriented package.
+"""

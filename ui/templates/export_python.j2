@@ -1,0 +1,5 @@
+def {{ model.function_name }}({{ model.params | join(', ') }}):
+    {% for rule in model.logic %}
+    if {{ rule.condition }}:
+        return {{ rule.return }}
+    {% endfor %}

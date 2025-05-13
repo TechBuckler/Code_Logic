@@ -1,0 +1,3 @@
+"""
+Legacy compatibility package.
+"""

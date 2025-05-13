@@ -1,0 +1,1070 @@
+{
+  "name": "src",
+  "path": "C:\\Users\\timge\\Downloads\\code_logic_tool_full\\shadow_tree_output",
+  "code_path": null,
+  "level": 0,
+  "summary": "",
+  "description": "",
+  "keywords": [],
+  "children": [
+    {
+      "name": "ai_suggester.py",
+      "path": "C:\\Users\\timge\\Downloads\\code_logic_tool_full\\shadow_tree_output\\ai_suggester_shadow.md",
+      "code_path": "C:\\Users\\timge\\Downloads\\code_logic_tool_full\\src\\ai_suggester.py",
+      "level": 1,
+      "summary": "Contains ask openai, ask llama, compare ai",
+      "description": "",
+      "keywords": [
+        "return",
+        "openai",
+        "prompt",
+        "print",
+        "def",
+        "llama",
+        "import",
+        "response",
+        "args",
+        "from"
+      ],
+      "children": []
+    },
+    {
+      "name": "ast_explorer.py",
+      "path": "C:\\Users\\timge\\Downloads\\code_logic_tool_full\\shadow_tree_output\\ast_explorer_shadow.md",
+      "code_path": "C:\\Users\\timge\\Downloads\\code_logic_tool_full\\src\\ast_explorer.py",
+      "level": 1,
+      "summary": "Contains extract functions, function visitor, visit function def",
+      "description": "",
+      "keywords": [
+        "def",
+        "source",
+        "tree",
+        "function",
+        "functionvisitor",
+        "node",
+        "import",
+        "ast",
+        "class",
+        "self"
+      ],
+      "children": []
+    },
+    {
+      "name": "background_system.py",
+      "path": "C:\\Users\\timge\\Downloads\\code_logic_tool_full\\shadow_tree_output\\background_system_shadow.md",
+      "code_path": "C:\\Users\\timge\\Downloads\\code_logic_tool_full\\src\\background_system.py",
+      "level": 1,
+      "summary": "Contains background system, init, start and 5 more",
+      "description": "",
+      "keywords": [
+        "task",
+        "def",
+        "self",
+        "import",
+        "priority",
+        "false",
+        "true",
+        "return",
+        "idle",
+        "cpu"
+      ],
+      "children": []
+    },
+    {
+      "name": "bootstrap.py",
+      "path": "C:\\Users\\timge\\Downloads\\code_logic_tool_full\\shadow_tree_output\\bootstrap_shadow.md",
+      "code_path": "C:\\Users\\timge\\Downloads\\code_logic_tool_full\\src\\bootstrap.py",
+      "level": 1,
+      "summary": "Bootstrap - Self-generating architecture system This module analyzes the existing codebase and trans...",
+      "description": "Bootstrap - Self-generating architecture system\n\nThis module analyzes the existing codebase and transforms it into the new\nhierarchical architecture. It serves as the entry point for the self-bootstrapping\nprocess.",
+      "keywords": [
+        "module",
+        "return",
+        "name",
+        "import",
+        "child",
+        "print",
+        "parent",
+        "error",
+        "none",
+        "def"
+      ],
+      "children": []
+    },
+    {
+      "name": "demo_hierarchical.py",
+      "path": "C:\\Users\\timge\\Downloads\\code_logic_tool_full\\shadow_tree_output\\demo_hierarchical_shadow.md",
+      "code_path": "C:\\Users\\timge\\Downloads\\code_logic_tool_full\\src\\demo_hierarchical.py",
+      "level": 1,
+      "summary": "Demo of the Hierarchical Module System This script demonstrates the hierarchical module system by cr...",
+      "description": "Demo of the Hierarchical Module System\n\nThis script demonstrates the hierarchical module system by creating a simple\nhierarchy of modules and showing how they interact.",
+      "keywords": [
+        "module",
+        "event",
+        "def",
+        "code",
+        "demo",
+        "self",
+        "child",
+        "analysis",
+        "optimization",
+        "data"
+      ],
+      "children": []
+    },
+    {
+      "name": "exporter.py",
+      "path": "C:\\Users\\timge\\Downloads\\code_logic_tool_full\\shadow_tree_output\\exporter_shadow.md",
+      "code_path": "C:\\Users\\timge\\Downloads\\code_logic_tool_full\\src\\exporter.py",
+      "level": 1,
+      "summary": "Contains export to python",
+      "description": "",
+      "keywords": [
+        "environment",
+        "from",
+        "import",
+        "filesystemloader",
+        "def",
+        "env",
+        "template",
+        "return"
+      ],
+      "children": []
+    },
+    {
+      "name": "exporter_optimized.py",
+      "path": "C:\\Users\\timge\\Downloads\\code_logic_tool_full\\shadow_tree_output\\exporter_optimized_shadow.md",
+      "code_path": "C:\\Users\\timge\\Downloads\\code_logic_tool_full\\src\\exporter_optimized.py",
+      "level": 1,
+      "summary": "Contains export to python",
+      "description": "",
+      "keywords": [
+        "import",
+        "environment",
+        "runtime",
+        "optimization",
+        "rtopt",
+        "from",
+        "filesystemloader",
+        "def",
+        "env",
+        "template"
+      ],
+      "children": []
+    },
+    {
+      "name": "file_utils.py",
+      "path": "C:\\Users\\timge\\Downloads\\code_logic_tool_full\\shadow_tree_output\\file_utils_shadow.md",
+      "code_path": "C:\\Users\\timge\\Downloads\\code_logic_tool_full\\src\\file_utils.py",
+      "level": 1,
+      "summary": "File Utilities for the Logic Tool This module provides utility functions for working with files, inc...",
+      "description": "File Utilities for the Logic Tool\n\nThis module provides utility functions for working with files,\nincluding copying, transforming, and loading Python modules.",
+      "keywords": [
+        "file",
+        "return",
+        "module",
+        "str",
+        "directory",
+        "none",
+        "path",
+        "target",
+        "python",
+        "import"
+      ],
+      "children": []
+    },
+    {
+      "name": "graph_builder.py",
+      "path": "C:\\Users\\timge\\Downloads\\code_logic_tool_full\\shadow_tree_output\\graph_builder_shadow.md",
+      "code_path": "C:\\Users\\timge\\Downloads\\code_logic_tool_full\\src\\graph_builder.py",
+      "level": 1,
+      "summary": "Contains build function graph",
+      "description": "",
+      "keywords": [
+        "function",
+        "call",
+        "import",
+        "node",
+        "add",
+        "hasattr",
+        "graph",
+        "ast",
+        "body",
+        "edge"
+      ],
+      "children": []
+    },
+    {
+      "name": "hierarchical_app.py",
+      "path": "C:\\Users\\timge\\Downloads\\code_logic_tool_full\\shadow_tree_output\\hierarchical_app_shadow.md",
+      "code_path": "C:\\Users\\timge\\Downloads\\code_logic_tool_full\\src\\hierarchical_app.py",
+      "level": 1,
+      "summary": "Hierarchical Logic Tool Application This is the main entry point for the Logic Tool using the hierar...",
+      "description": "Hierarchical Logic Tool Application\n\nThis is the main entry point for the Logic Tool using the hierarchical module system.\nIt sets up the core modules and handles the main UI rendering.",
+      "keywords": [
+        "page",
+        "logic",
+        "event",
+        "main",
+        "self",
+        "data",
+        "tool",
+        "application",
+        "module",
+        "import"
+      ],
+      "children": []
+    },
+    {
+      "name": "hierarchical_main.py",
+      "path": "C:\\Users\\timge\\Downloads\\code_logic_tool_full\\shadow_tree_output\\hierarchical_main_shadow.md",
+      "code_path": "C:\\Users\\timge\\Downloads\\code_logic_tool_full\\src\\hierarchical_main.py",
+      "level": 1,
+      "summary": "Hierarchical Logic Tool - Main Application This is the main entry point for the Logic Tool using the...",
+      "description": "Hierarchical Logic Tool - Main Application\n\nThis is the main entry point for the Logic Tool using the hierarchical module architecture.\nIt sets up the core modules and handles the main UI rendering.",
+      "keywords": [
+        "page",
+        "module",
+        "logic",
+        "event",
+        "self",
+        "main",
+        "tool",
+        "application",
+        "import",
+        "def"
+      ],
+      "children": []
+    },
+    {
+      "name": "imports.py",
+      "path": "C:\\Users\\timge\\Downloads\\code_logic_tool_full\\shadow_tree_output\\imports_shadow.md",
+      "code_path": "C:\\Users\\timge\\Downloads\\code_logic_tool_full\\src\\imports.py",
+      "level": 1,
+      "summary": "Centralized imports for the Logic Tool system.",
+      "description": "Centralized imports for the Logic Tool system.\nThis file ensures all components can find their dependencies.",
+      "keywords": [
+        "import",
+        "from",
+        "return",
+        "module",
+        "function",
+        "try",
+        "notification",
+        "none",
+        "file",
+        "except"
+      ],
+      "children": []
+    },
+    {
+      "name": "ir_model.py",
+      "path": "C:\\Users\\timge\\Downloads\\code_logic_tool_full\\shadow_tree_output\\ir_model_shadow.md",
+      "code_path": "C:\\Users\\timge\\Downloads\\code_logic_tool_full\\src\\ir_model.py",
+      "level": 1,
+      "summary": "Contains extract ir from source, extract if conditions, get return value and 1 more",
+      "description": "",
+      "keywords": [
+        "node",
+        "return",
+        "isinstance",
+        "logic",
+        "elif",
+        "extract",
+        "model",
+        "atok",
+        "none",
+        "else"
+      ],
+      "children": []
+    },
+    {
+      "name": "module_system.py",
+      "path": "C:\\Users\\timge\\Downloads\\code_logic_tool_full\\shadow_tree_output\\module_system_shadow.md",
+      "code_path": "C:\\Users\\timge\\Downloads\\code_logic_tool_full\\src\\module_system.py",
+      "level": 1,
+      "summary": "Contains module, module registry, init and 17 more",
+      "description": "",
+      "keywords": [
+        "resource",
+        "module",
+        "self",
+        "def",
+        "return",
+        "usage",
+        "import",
+        "name",
+        "profile",
+        "constraint"
+      ],
+      "children": []
+    },
+    {
+      "name": "new_main.py",
+      "path": "C:\\Users\\timge\\Downloads\\code_logic_tool_full\\shadow_tree_output\\new_main_shadow.md",
+      "code_path": "C:\\Users\\timge\\Downloads\\code_logic_tool_full\\src\\new_main.py",
+      "level": 1,
+      "summary": "New Main Application - Entry point for the Logic Tool with hierarchical architecture This module ser...",
+      "description": "New Main Application - Entry point for the Logic Tool with hierarchical architecture\n\nThis module serves as the main entry point for the Logic Tool, using the new\nhierarchical architecture based on simple_hierarchical_core.py.",
+      "keywords": [
+        "project",
+        "code",
+        "self",
+        "page",
+        "def",
+        "optimization",
+        "analysis",
+        "module",
+        "render",
+        "logic"
+      ],
+      "children": []
+    },
+    {
+      "name": "new_unified_ui.py",
+      "path": "C:\\Users\\timge\\Downloads\\code_logic_tool_full\\shadow_tree_output\\new_unified_ui_shadow.md",
+      "code_path": "C:\\Users\\timge\\Downloads\\code_logic_tool_full\\src\\new_unified_ui.py",
+      "level": 1,
+      "summary": "New Unified UI - Redesigned UI with improved architecture",
+      "description": "New Unified UI - Redesigned UI with improved architecture",
+      "keywords": [
+        "module",
+        "result",
+        "import",
+        "complexity",
+        "analysis",
+        "from",
+        "code",
+        "opportunity",
+        "optimization",
+        "pattern"
+      ],
+      "children": []
+    },
+    {
+      "name": "optimizer.py",
+      "path": "C:\\Users\\timge\\Downloads\\code_logic_tool_full\\shadow_tree_output\\optimizer_shadow.md",
+      "code_path": "C:\\Users\\timge\\Downloads\\code_logic_tool_full\\src\\optimizer.py",
+      "level": 1,
+      "summary": "Contains optimize logic, generate lookup table, extract numeric bounds and 5 more",
+      "description": "",
+      "keywords": [
+        "condition",
+        "param",
+        "rule",
+        "logic",
+        "return",
+        "part",
+        "parameter",
+        "def",
+        "table",
+        "value"
+      ],
+      "children": []
+    },
+    {
+      "name": "proof_engine.py",
+      "path": "C:\\Users\\timge\\Downloads\\code_logic_tool_full\\shadow_tree_output\\proof_engine_shadow.md",
+      "code_path": "C:\\Users\\timge\\Downloads\\code_logic_tool_full\\src\\proof_engine.py",
+      "level": 1,
+      "summary": "Contains run z proof, parse condition to z, run default proof and 2 more",
+      "description": "",
+      "keywords": [
+        "condition",
+        "result",
+        "param",
+        "return",
+        "cpu",
+        "output",
+        "proof",
+        "default",
+        "print",
+        "int"
+      ],
+      "children": []
+    },
+    {
+      "name": "runtime_optimization.py",
+      "path": "C:\\Users\\timge\\Downloads\\code_logic_tool_full\\shadow_tree_output\\runtime_optimization_shadow.md",
+      "code_path": "C:\\Users\\timge\\Downloads\\code_logic_tool_full\\src\\runtime_optimization.py",
+      "level": 1,
+      "summary": "Runtime Optimization Module This module provides the runtime optimization components that integrate ...",
+      "description": "Runtime Optimization Module\nThis module provides the runtime optimization components that integrate with the logic analysis system.",
+      "keywords": [
+        "runtime",
+        "return",
+        "optimization",
+        "def",
+        "import",
+        "optimize",
+        "module",
+        "self",
+        "dict",
+        "any"
+      ],
+      "children": []
+    },
+    {
+      "name": "runtime_utils.py",
+      "path": "C:\\Users\\timge\\Downloads\\code_logic_tool_full\\shadow_tree_output\\runtime_utils_shadow.md",
+      "code_path": "C:\\Users\\timge\\Downloads\\code_logic_tool_full\\src\\runtime_utils.py",
+      "level": 1,
+      "summary": "Runtime Utilities for the Logic Tool System.",
+      "description": "Runtime Utilities for the Logic Tool System.\nThis file provides functions that bridge the logic analysis and runtime optimization components.",
+      "keywords": [
+        "def",
+        "return",
+        "self",
+        "str",
+        "data",
+        "pattern",
+        "optimization",
+        "node",
+        "function",
+        "none"
+      ],
+      "children": []
+    },
+    {
+      "name": "starter_pipeline.py",
+      "path": "C:\\Users\\timge\\Downloads\\code_logic_tool_full\\shadow_tree_output\\starter_pipeline_shadow.md",
+      "code_path": "C:\\Users\\timge\\Downloads\\code_logic_tool_full\\src\\starter_pipeline.py",
+      "level": 1,
+      "summary": "Contains run pipeline, parse arguments",
+      "description": "",
+      "keywords": [
+        "print",
+        "function",
+        "code",
+        "return",
+        "file",
+        "step",
+        "import",
+        "from",
+        "logic",
+        "none"
+      ],
+      "children": []
+    },
+    {
+      "name": "ui_renderers.py",
+      "path": "C:\\Users\\timge\\Downloads\\code_logic_tool_full\\shadow_tree_output\\ui_renderers_shadow.md",
+      "code_path": "C:\\Users\\timge\\Downloads\\code_logic_tool_full\\src\\ui_renderers.py",
+      "level": 1,
+      "summary": "UI Renderers - Module-specific UI rendering functions",
+      "description": "UI Renderers - Module-specific UI rendering functions",
+      "keywords": [
+        "result",
+        "function",
+        "optimization",
+        "code",
+        "example",
+        "summary",
+        "step",
+        "import",
+        "performance",
+        "python"
+      ],
+      "children": []
+    },
+    {
+      "name": "ui_renderers_part2.py",
+      "path": "C:\\Users\\timge\\Downloads\\code_logic_tool_full\\shadow_tree_output\\ui_renderers_part2_shadow.md",
+      "code_path": "C:\\Users\\timge\\Downloads\\code_logic_tool_full\\src\\ui_renderers_part2.py",
+      "level": 1,
+      "summary": "UI Renderers Part 2 - Additional module-specific UI rendering functions",
+      "description": "UI Renderers Part 2 - Additional module-specific UI rendering functions",
+      "keywords": [
+        "result",
+        "module",
+        "import",
+        "technique",
+        "optimization",
+        "analysis",
+        "issue",
+        "memory",
+        "option",
+        "project"
+      ],
+      "children": []
+    },
+    {
+      "name": "ui_renderers_part3.py",
+      "path": "C:\\Users\\timge\\Downloads\\code_logic_tool_full\\shadow_tree_output\\ui_renderers_part3_shadow.md",
+      "code_path": "C:\\Users\\timge\\Downloads\\code_logic_tool_full\\src\\ui_renderers_part3.py",
+      "level": 1,
+      "summary": "UI Renderers Part 3 - Final module-specific UI rendering functions",
+      "description": "UI Renderers Part 3 - Final module-specific UI rendering functions",
+      "keywords": [
+        "usage",
+        "memory",
+        "result",
+        "time",
+        "cpu",
+        "execution",
+        "import",
+        "iteration",
+        "function",
+        "show"
+      ],
+      "children": []
+    },
+    {
+      "name": "ui_utils.py",
+      "path": "C:\\Users\\timge\\Downloads\\code_logic_tool_full\\shadow_tree_output\\ui_utils_shadow.md",
+      "code_path": "C:\\Users\\timge\\Downloads\\code_logic_tool_full\\src\\ui_utils.py",
+      "level": 1,
+      "summary": "UI Utilities for the Logic Tool",
+      "description": "UI Utilities for the Logic Tool",
+      "keywords": [
+        "key",
+        "return",
+        "set",
+        "def",
+        "str",
+        "unique",
+        "counter",
+        "import",
+        "used",
+        "base"
+      ],
+      "children": []
+    },
+    {
+      "name": "unified_ui.py",
+      "path": "C:\\Users\\timge\\Downloads\\code_logic_tool_full\\shadow_tree_output\\unified_ui_shadow.md",
+      "code_path": "C:\\Users\\timge\\Downloads\\code_logic_tool_full\\src\\unified_ui.py",
+      "level": 1,
+      "summary": "Contains initialize system, run ui, background optimization and 3 more",
+      "description": "",
+      "keywords": [
+        "optimization",
+        "code",
+        "module",
+        "function",
+        "else",
+        "elif",
+        "import",
+        "result",
+        "usage",
+        "show"
+      ],
+      "children": []
+    },
+    {
+      "name": "utils.py",
+      "path": "C:\\Users\\timge\\Downloads\\code_logic_tool_full\\shadow_tree_output\\utils_shadow.md",
+      "code_path": "C:\\Users\\timge\\Downloads\\code_logic_tool_full\\src\\utils.py",
+      "level": 1,
+      "summary": "Contains safe eval",
+      "description": "",
+      "keywords": [
+        "expr",
+        "context",
+        "return",
+        "def",
+        "try",
+        "eval",
+        "except",
+        "exception",
+        "false"
+      ],
+      "children": []
+    },
+    {
+      "name": "core",
+      "path": "C:\\Users\\timge\\Downloads\\code_logic_tool_full\\shadow_tree_output\\core",
+      "code_path": "C:\\Users\\timge\\Downloads\\code_logic_tool_full\\src\\core",
+      "level": 1,
+      "summary": "",
+      "description": "",
+      "keywords": [],
+      "children": [
+        {
+          "name": "hierarchical_core.py",
+          "path": "C:\\Users\\timge\\Downloads\\code_logic_tool_full\\shadow_tree_output\\core\\hierarchical_core_shadow.md",
+          "code_path": "C:\\Users\\timge\\Downloads\\code_logic_tool_full\\src\\core\\hierarchical_core.py",
+          "level": 2,
+          "summary": "Hierarchical Core - Foundation for the self-bootstrapping architecture This module provides the core...",
+          "description": "Hierarchical Core - Foundation for the self-bootstrapping architecture\n\nThis module provides the core components for a hierarchical, modular system\nthat can dynamically organize, load, and manage modules at multiple levels\nof abstraction.",
+          "keywords": [
+            "module",
+            "str",
+            "def",
+            "return",
+            "self",
+            "event",
+            "class",
+            "file",
+            "any",
+            "import"
+          ],
+          "children": []
+        },
+        {
+          "name": "hierarchical_module.py",
+          "path": "C:\\Users\\timge\\Downloads\\code_logic_tool_full\\shadow_tree_output\\core\\hierarchical_module_shadow.md",
+          "code_path": "C:\\Users\\timge\\Downloads\\code_logic_tool_full\\src\\core\\hierarchical_module.py",
+          "level": 2,
+          "summary": "Hierarchical Module System - Extends the base module system with hierarchical capabilities This modu...",
+          "description": "Hierarchical Module System - Extends the base module system with hierarchical capabilities\n\nThis module provides a hierarchical extension to the base module system,\nallowing modules to be organized in a tree structure with parent-child relationships.",
+          "keywords": [
+            "module",
+            "self",
+            "return",
+            "def",
+            "name",
+            "child",
+            "path",
+            "all",
+            "part",
+            "get"
+          ],
+          "children": []
+        },
+        {
+          "name": "simple_hierarchical_core.py",
+          "path": "C:\\Users\\timge\\Downloads\\code_logic_tool_full\\shadow_tree_output\\core\\simple_hierarchical_core_shadow.md",
+          "code_path": "C:\\Users\\timge\\Downloads\\code_logic_tool_full\\src\\core\\simple_hierarchical_core.py",
+          "level": 2,
+          "summary": "Simple Hierarchical Core - A lightweight foundation for hierarchical modules This module provides a ...",
+          "description": "Simple Hierarchical Core - A lightweight foundation for hierarchical modules\n\nThis module provides a simplified hierarchical module system with event-based\ncommunication and state management. It's designed to be easy to understand and use.",
+          "keywords": [
+            "module",
+            "self",
+            "def",
+            "key",
+            "event",
+            "str",
+            "return",
+            "any",
+            "none",
+            "callback"
+          ],
+          "children": []
+        },
+        {
+          "name": "state_manager.py",
+          "path": "C:\\Users\\timge\\Downloads\\code_logic_tool_full\\shadow_tree_output\\core\\state_manager_shadow.md",
+          "code_path": "C:\\Users\\timge\\Downloads\\code_logic_tool_full\\src\\core\\state_manager.py",
+          "level": 2,
+          "summary": "State Manager - Core component for managing shared state and event communication",
+          "description": "State Manager - Core component for managing shared state and event communication",
+          "keywords": [
+            "key",
+            "def",
+            "self",
+            "callback",
+            "value",
+            "state",
+            "str",
+            "return",
+            "event",
+            "any"
+          ],
+          "children": []
+        },
+        {
+          "name": "ui_components.py",
+          "path": "C:\\Users\\timge\\Downloads\\code_logic_tool_full\\shadow_tree_output\\core\\ui_components_shadow.md",
+          "code_path": "C:\\Users\\timge\\Downloads\\code_logic_tool_full\\src\\core\\ui_components.py",
+          "level": 2,
+          "summary": "UI Components - Core components for the unified UI",
+          "description": "UI Components - Core components for the unified UI",
+          "keywords": [
+            "tool",
+            "result",
+            "def",
+            "category",
+            "self",
+            "render",
+            "renderer",
+            "str",
+            "from",
+            "navigation"
+          ],
+          "children": []
+        },
+        {
+          "name": "unified_core.py",
+          "path": "C:\\Users\\timge\\Downloads\\code_logic_tool_full\\shadow_tree_output\\core\\unified_core_shadow.md",
+          "code_path": "C:\\Users\\timge\\Downloads\\code_logic_tool_full\\src\\core\\unified_core.py",
+          "level": 2,
+          "summary": "Unified Core Architecture This module provides a unified core architecture that integrates all exist...",
+          "description": "Unified Core Architecture\n\nThis module provides a unified core architecture that integrates all existing modules\nwhile maintaining a clean hierarchical structure. It serves as the central hub for\nall functionality in the Logic Tool.",
+          "keywords": [
+            "module",
+            "from",
+            "event",
+            "import",
+            "handler",
+            "def",
+            "self",
+            "core",
+            "all",
+            "name"
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "modules",
+      "path": "C:\\Users\\timge\\Downloads\\code_logic_tool_full\\shadow_tree_output\\modules",
+      "code_path": "C:\\Users\\timge\\Downloads\\code_logic_tool_full\\src\\modules",
+      "level": 1,
+      "summary": "",
+      "description": "",
+      "keywords": [],
+      "children": [
+        {
+          "name": "ast_parser_module.py",
+          "path": "C:\\Users\\timge\\Downloads\\code_logic_tool_full\\shadow_tree_output\\modules\\ast_parser_module_shadow.md",
+          "code_path": "C:\\Users\\timge\\Downloads\\code_logic_tool_full\\src\\modules\\ast_parser_module.py",
+          "level": 2,
+          "summary": "Contains ast parser module, init, can process and 1 more",
+          "description": "",
+          "keywords": [
+            "data",
+            "def",
+            "self",
+            "module",
+            "super",
+            "return",
+            "from",
+            "import",
+            "class",
+            "astparsermodule"
+          ],
+          "children": []
+        },
+        {
+          "name": "exporter_module.py",
+          "path": "C:\\Users\\timge\\Downloads\\code_logic_tool_full\\shadow_tree_output\\modules\\exporter_module_shadow.md",
+          "code_path": "C:\\Users\\timge\\Downloads\\code_logic_tool_full\\src\\modules\\exporter_module.py",
+          "level": 2,
+          "summary": "Contains exporter module, init, can process and 1 more",
+          "description": "",
+          "keywords": [
+            "data",
+            "def",
+            "self",
+            "import",
+            "module",
+            "super",
+            "return",
+            "from",
+            "class",
+            "exportermodule"
+          ],
+          "children": []
+        },
+        {
+          "name": "graph_builder_module.py",
+          "path": "C:\\Users\\timge\\Downloads\\code_logic_tool_full\\shadow_tree_output\\modules\\graph_builder_module_shadow.md",
+          "code_path": "C:\\Users\\timge\\Downloads\\code_logic_tool_full\\src\\modules\\graph_builder_module.py",
+          "level": 2,
+          "summary": "Contains graph builder module, init, can process and 1 more",
+          "description": "",
+          "keywords": [
+            "data",
+            "def",
+            "self",
+            "module",
+            "super",
+            "return",
+            "from",
+            "import",
+            "class",
+            "graphbuildermodule"
+          ],
+          "children": []
+        },
+        {
+          "name": "ir_generator_module.py",
+          "path": "C:\\Users\\timge\\Downloads\\code_logic_tool_full\\shadow_tree_output\\modules\\ir_generator_module_shadow.md",
+          "code_path": "C:\\Users\\timge\\Downloads\\code_logic_tool_full\\src\\modules\\ir_generator_module.py",
+          "level": 2,
+          "summary": "Contains ir generator module, init, can process and 1 more",
+          "description": "",
+          "keywords": [
+            "data",
+            "source",
+            "return",
+            "isinstance",
+            "none",
+            "def",
+            "self",
+            "list",
+            "from",
+            "module"
+          ],
+          "children": []
+        },
+        {
+          "name": "module_explorer_module.py",
+          "path": "C:\\Users\\timge\\Downloads\\code_logic_tool_full\\shadow_tree_output\\modules\\module_explorer_module_shadow.md",
+          "code_path": "C:\\Users\\timge\\Downloads\\code_logic_tool_full\\src\\modules\\module_explorer_module.py",
+          "level": 2,
+          "summary": "Module Explorer Module This module allows exploring, editing, and running other modules in the syste...",
+          "description": "Module Explorer Module\n\nThis module allows exploring, editing, and running other modules in the system.\nIt provides a unified interface for inspecting code, running tools, and executing\nthe entire pipeline or specific components.",
+          "keywords": [
+            "module",
+            "return",
+            "error",
+            "def",
+            "self",
+            "import",
+            "file",
+            "name",
+            "command",
+            "change"
+          ],
+          "children": []
+        },
+        {
+          "name": "optimization_testbed_module.py",
+          "path": "C:\\Users\\timge\\Downloads\\code_logic_tool_full\\shadow_tree_output\\modules\\optimization_testbed_module_shadow.md",
+          "code_path": "C:\\Users\\timge\\Downloads\\code_logic_tool_full\\src\\modules\\optimization_testbed_module.py",
+          "level": 2,
+          "summary": "Optimization Testbed Module This module provides a comprehensive testing environment for analyzing c...",
+          "description": "Optimization Testbed Module\n\nThis module provides a comprehensive testing environment for analyzing code and finding\noptimal tradeoffs between memory usage, CPU performance, GPU utilization, and other\nfactors based on the target environment and use case.\n\nIt implements a multi-variable radar chart visualization to help identify optimal\nconfigurations for different scenarios.",
+          "keywords": [
+            "result",
+            "import",
+            "description",
+            "optimization",
+            "technique",
+            "return",
+            "analysis",
+            "profile",
+            "code",
+            "add"
+          ],
+          "children": []
+        },
+        {
+          "name": "optimizer_module.py",
+          "path": "C:\\Users\\timge\\Downloads\\code_logic_tool_full\\shadow_tree_output\\modules\\optimizer_module_shadow.md",
+          "code_path": "C:\\Users\\timge\\Downloads\\code_logic_tool_full\\src\\modules\\optimizer_module.py",
+          "level": 2,
+          "summary": "Contains optimizer module, init, can process and 1 more",
+          "description": "",
+          "keywords": [
+            "data",
+            "def",
+            "self",
+            "module",
+            "super",
+            "return",
+            "from",
+            "import",
+            "class",
+            "optimizermodule"
+          ],
+          "children": []
+        },
+        {
+          "name": "project_organizer_module.py",
+          "path": "C:\\Users\\timge\\Downloads\\code_logic_tool_full\\shadow_tree_output\\modules\\project_organizer_module_shadow.md",
+          "code_path": "C:\\Users\\timge\\Downloads\\code_logic_tool_full\\src\\modules\\project_organizer_module.py",
+          "level": 2,
+          "summary": "Project Organizer Module This module handles project organization, file naming conventions, and proj...",
+          "description": "Project Organizer Module\n\nThis module handles project organization, file naming conventions, and project structure.\nIt can analyze the current project structure, suggest improvements, and apply changes.",
+          "keywords": [
+            "file",
+            "result",
+            "directory",
+            "move",
+            "return",
+            "def",
+            "self",
+            "project",
+            "naming",
+            "convention"
+          ],
+          "children": []
+        },
+        {
+          "name": "proof_engine_module.py",
+          "path": "C:\\Users\\timge\\Downloads\\code_logic_tool_full\\shadow_tree_output\\modules\\proof_engine_module_shadow.md",
+          "code_path": "C:\\Users\\timge\\Downloads\\code_logic_tool_full\\src\\modules\\proof_engine_module.py",
+          "level": 2,
+          "summary": "Contains proof engine module, init, can process and 1 more",
+          "description": "",
+          "keywords": [
+            "data",
+            "def",
+            "self",
+            "result",
+            "module",
+            "super",
+            "return",
+            "from",
+            "import",
+            "class"
+          ],
+          "children": []
+        },
+        {
+          "name": "shadow_tree_module.py",
+          "path": "C:\\Users\\timge\\Downloads\\code_logic_tool_full\\shadow_tree_output\\modules\\shadow_tree_module_shadow.md",
+          "code_path": "C:\\Users\\timge\\Downloads\\code_logic_tool_full\\src\\modules\\shadow_tree_module.py",
+          "level": 2,
+          "summary": "Shadow Tree Module This module integrates the Shadow Tree system with the unified UI, allowing for n...",
+          "description": "Shadow Tree Module\n\nThis module integrates the Shadow Tree system with the unified UI,\nallowing for natural language navigation of the codebase.",
+          "keywords": [
+            "return",
+            "tree",
+            "shadow",
+            "output",
+            "command",
+            "node",
+            "level",
+            "child",
+            "def",
+            "self"
+          ],
+          "children": []
+        },
+        {
+          "name": "hierarchical",
+          "path": "C:\\Users\\timge\\Downloads\\code_logic_tool_full\\shadow_tree_output\\modules\\hierarchical",
+          "code_path": "C:\\Users\\timge\\Downloads\\code_logic_tool_full\\src\\modules\\hierarchical",
+          "level": 2,
+          "summary": "",
+          "description": "",
+          "keywords": [],
+          "children": [
+            {
+              "name": "analysis_core_module.py",
+              "path": "C:\\Users\\timge\\Downloads\\code_logic_tool_full\\shadow_tree_output\\modules\\hierarchical\\analysis_core_module_shadow.md",
+              "code_path": "C:\\Users\\timge\\Downloads\\code_logic_tool_full\\src\\modules\\hierarchical\\analysis_core_module.py",
+              "level": 3,
+              "summary": "Analysis Core Module - Hierarchical version This module serves as the core for all analysis-related ...",
+              "description": "Analysis Core Module - Hierarchical version\n\nThis module serves as the core for all analysis-related functionality,\nincluding code parsing, AST exploration, and logic analysis.",
+              "keywords": [
+                "code",
+                "result",
+                "analysis",
+                "import",
+                "self",
+                "input",
+                "module",
+                "tab",
+                "ast",
+                "def"
+              ],
+              "children": []
+            },
+            {
+              "name": "ast_parser_module.py",
+              "path": "C:\\Users\\timge\\Downloads\\code_logic_tool_full\\shadow_tree_output\\modules\\hierarchical\\ast_parser_module_shadow.md",
+              "code_path": "C:\\Users\\timge\\Downloads\\code_logic_tool_full\\src\\modules\\hierarchical\\ast_parser_module.py",
+              "level": 3,
+              "summary": "Hierarchical AST Parser Module This module extends the base AST parser module with hierarchical capa...",
+              "description": "Hierarchical AST Parser Module\n\nThis module extends the base AST parser module with hierarchical capabilities.\nIt parses Python code into an Abstract Syntax Tree (AST) for further analysis.",
+              "keywords": [
+                "code",
+                "function",
+                "ast",
+                "import",
+                "return",
+                "module",
+                "def",
+                "data",
+                "error",
+                "func"
+              ],
+              "children": []
+            },
+            {
+              "name": "ir_generator_module.py",
+              "path": "C:\\Users\\timge\\Downloads\\code_logic_tool_full\\shadow_tree_output\\modules\\hierarchical\\ir_generator_module_shadow.md",
+              "code_path": "C:\\Users\\timge\\Downloads\\code_logic_tool_full\\src\\modules\\hierarchical\\ir_generator_module.py",
+              "level": 3,
+              "summary": "Hierarchical IR Generator Module This module extends the base IR generator module with hierarchical ...",
+              "description": "Hierarchical IR Generator Module\n\nThis module extends the base IR generator module with hierarchical capabilities.\nIt generates an Intermediate Representation (IR) model from parsed code.",
+              "keywords": [
+                "model",
+                "data",
+                "function",
+                "code",
+                "return",
+                "rule",
+                "error",
+                "else",
+                "from",
+                "module"
+              ],
+              "children": []
+            },
+            {
+              "name": "optimization_core_module.py",
+              "path": "C:\\Users\\timge\\Downloads\\code_logic_tool_full\\shadow_tree_output\\modules\\hierarchical\\optimization_core_module_shadow.md",
+              "code_path": "C:\\Users\\timge\\Downloads\\code_logic_tool_full\\src\\modules\\hierarchical\\optimization_core_module.py",
+              "level": 3,
+              "summary": "Optimization Core Module - Hierarchical version This module serves as the core for all optimization-...",
+              "description": "Optimization Core Module - Hierarchical version\n\nThis module serves as the core for all optimization-related functionality,\nincluding logic optimization, formal verification, and performance analysis.",
+              "keywords": [
+                "optimization",
+                "result",
+                "verification",
+                "import",
+                "module",
+                "self",
+                "logic",
+                "from",
+                "tab",
+                "merged"
+              ],
+              "children": []
+            },
+            {
+              "name": "optimizer_module.py",
+              "path": "C:\\Users\\timge\\Downloads\\code_logic_tool_full\\shadow_tree_output\\modules\\hierarchical\\optimizer_module_shadow.md",
+              "code_path": "C:\\Users\\timge\\Downloads\\code_logic_tool_full\\src\\modules\\hierarchical\\optimizer_module.py",
+              "level": 3,
+              "summary": "Contains optimizer module, init, handle ir generation complete and 3 more",
+              "description": "",
+              "keywords": [
+                "logic",
+                "data",
+                "import",
+                "rule",
+                "error",
+                "model",
+                "from",
+                "def",
+                "self",
+                "return"
+              ],
+              "children": []
+            },
+            {
+              "name": "proof_engine_module.py",
+              "path": "C:\\Users\\timge\\Downloads\\code_logic_tool_full\\shadow_tree_output\\modules\\hierarchical\\proof_engine_module_shadow.md",
+              "code_path": "C:\\Users\\timge\\Downloads\\code_logic_tool_full\\src\\modules\\hierarchical\\proof_engine_module.py",
+              "level": 3,
+              "summary": "Hierarchical Proof Engine Module This module extends the base proof engine module with hierarchical ...",
+              "description": "Hierarchical Proof Engine Module\n\nThis module extends the base proof engine module with hierarchical capabilities.\nIt uses Z3 to formally verify the correctness of logic functions.",
+              "keywords": [
+                "verification",
+                "logic",
+                "data",
+                "error",
+                "import",
+                "model",
+                "proof",
+                "module",
+                "verified",
+                "result"
+              ],
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

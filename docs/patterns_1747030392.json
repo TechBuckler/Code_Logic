@@ -1,0 +1,245 @@
+{
+  "patterns": {
+    "Var(__name__)EqStr": 3,
+    "Name": 23,
+    "Not(Attribute)": 3,
+    "Attribute": 6,
+    "(CallAndNot(Call))": 1,
+    "CallEqNum(int)": 2,
+    "(CallAndCall)": 3,
+    "(CallAndAttributeInVar(function_names))": 2,
+    "Var(project_root)NotInAttribute": 2,
+    "Var(module_name)IsNone": 1,
+    "Var(spec)IsNone": 1,
+    "Var(parent_conditions)IsNone": 1,
+    "Call": 39,
+    "Var(target_func)IsNone": 1,
+    "(CallEqNum(int)AndCall)": 1,
+    "(Var(function_name)IsNoneOrAttributeEqVar(function_name))": 1,
+    "(NameAndCall)": 2,
+    "(Var(temperature)GtNum(int)OrVar(temperature)LtUnaryOp)": 1,
+    "(Var(battery_level)LtNum(int)AndVar(unread_messages)GtNum(int))": 1,
+    "((Var(battery_level)LtNum(int)AndNot(Name))OrVar(unread_messages)GtNum(int))": 1,
+    "(Var(unread_messages)GtNum(int)AndVar(battery_level)GtNum(int))": 1,
+    "((NameAndVar(temperature)GtNum(int))Or(Var(battery_level)GtNum(int)AndVar(unread_messages)GtNum(int)))": 1,
+    "(NameAndVar(unread_messages)GtNum(int))": 1,
+    "Var(parent_dir)NotInAttribute": 2,
+    "Var(ir_model)IsNone": 2,
+    "Var(min_val)LtVar(max_val)": 1,
+    "(CallOrVar(param)InList)": 2,
+    "(JoinedStrInVar(condition)OrJoinedStrInVar(condition))": 3,
+    "Var(condition)EqStr": 2,
+    "Var(ret_val)NotInVar(merged)": 1,
+    "Var(param)InList": 2,
+    "(Var(i)NotEqVar(j)AndSubscriptEqSubscript)": 1,
+    "Not(Name)": 3,
+    "SubscriptInSubscript": 1,
+    "BinOpLtNum(int)": 1,
+    "(NameAndVar(cpu)LtNum(int))": 2,
+    "Var(param)EqStr": 1,
+    "Var(result)IsNone": 3,
+    "(Not(Name)OrNot(Call))": 1,
+    "Not(Call)": 1,
+    "Var(output_file)IsNone": 2,
+    "Var(func_name)NotInAttribute": 1,
+    "Var(func_name)InAttribute": 1,
+    "(AttributeAndCall)": 1,
+    "AttributeNotInAttribute": 1,
+    "(CallAndStrInVar(data))": 1,
+    "(SubscriptGtNum(int)AndBinOpGtNum(int))": 1,
+    "(CallAndAttributeInTuple)": 1,
+    "Var(source_code)IsNone": 1,
+    "(Var(function_name)IsNoneAndCallEqNum(int))": 2,
+    "Var(function_type)EqStr": 5,
+    "(CallAndStrNotInAttribute)": 1,
+    "Var(uploaded_file)IsNotNone": 1,
+    "StrInVar(data)": 1,
+    "(CallAndCallGtNum(int))": 1
+  },
+  "function_patterns": {
+    "ask_llama": {
+      "Name": 1
+    },
+    "start": {
+      "Not(Attribute)": 1
+    },
+    "stop": {
+      "Attribute": 1
+    },
+    "_worker": {
+      "(CallAndNot(Call))": 1
+    },
+    "_is_idle": {
+      "Name": 1
+    },
+    "build_function_graph": {
+      "CallEqNum(int)": 1,
+      "(CallAndCall)": 1,
+      "(CallAndAttributeInVar(function_names))": 2
+    },
+    "load_module_from_file": {
+      "Var(module_name)IsNone": 1,
+      "Var(spec)IsNone": 1
+    },
+    "extract_ir_from_source": {
+      "Var(target_func)IsNone": 1,
+      "Call": 3,
+      "(Var(function_name)IsNoneOrAttributeEqVar(function_name))": 1
+    },
+    "_extract_if_conditions": {
+      "Var(parent_conditions)IsNone": 1,
+      "Name": 2,
+      "Attribute": 1,
+      "Call": 4,
+      "(CallEqNum(int)AndCall)": 1
+    },
+    "_get_return_value": {
+      "Call": 5
+    },
+    "get_ir_model": {
+      "Name": 2
+    },
+    "process_chain": {
+      "(NameAndCall)": 1
+    },
+    "determine_notification": {
+      "(Var(temperature)GtNum(int)OrVar(temperature)LtUnaryOp)": 1,
+      "(Var(battery_level)LtNum(int)AndVar(unread_messages)GtNum(int))": 1,
+      "((Var(battery_level)LtNum(int)AndNot(Name))OrVar(unread_messages)GtNum(int))": 1,
+      "(Var(unread_messages)GtNum(int)AndVar(battery_level)GtNum(int))": 1,
+      "((NameAndVar(temperature)GtNum(int))Or(Var(battery_level)GtNum(int)AndVar(unread_messages)GtNum(int)))": 1,
+      "(NameAndVar(unread_messages)GtNum(int))": 1
+    },
+    "optimize_logic": {
+      "Var(ir_model)IsNone": 1,
+      "Name": 1
+    },
+    "generate_lookup_table": {
+      "(CallOrVar(param)InList)": 1,
+      "Var(param)InList": 1,
+      "Name": 1,
+      "BinOpLtNum(int)": 1
+    },
+    "extract_numeric_bounds": {
+      "Var(min_val)LtVar(max_val)": 1,
+      "(JoinedStrInVar(condition)OrJoinedStrInVar(condition))": 2,
+      "Call": 2
+    },
+    "extract_thresholds": {
+      "(JoinedStrInVar(condition)OrJoinedStrInVar(condition))": 1,
+      "Call": 1
+    },
+    "evaluate_logic": {
+      "Call": 1
+    },
+    "simplify_conditions": {
+      "Var(condition)EqStr": 1
+    },
+    "find_redundant_conditions": {
+      "(Var(i)NotEqVar(j)AndSubscriptEqSubscript)": 1,
+      "SubscriptInSubscript": 1
+    },
+    "merge_similar_branches": {
+      "Var(ret_val)NotInVar(merged)": 1,
+      "CallEqNum(int)": 1,
+      "Not(Name)": 1
+    },
+    "decide": {
+      "Name": 2,
+      "(NameAndVar(cpu)LtNum(int))": 1
+    },
+    "run_z3_proof": {
+      "Var(ir_model)IsNone": 1,
+      "Not(Name)": 1,
+      "Name": 1,
+      "(CallOrVar(param)InList)": 1,
+      "Call": 3,
+      "Var(param)InList": 1,
+      "Var(condition)EqStr": 1,
+      "Var(param)EqStr": 1,
+      "Var(result)IsNone": 3
+    },
+    "build_output_function": {
+      "Var(condition)EqStr": 1,
+      "Call": 2,
+      "Var(result)IsNone": 3
+    },
+    "integrate_with_pipeline": {
+      "(Not(Name)OrNot(Call))": 1,
+      "Not(Name)": 1,
+      "Name": 1
+    },
+    "initialize": {
+      "Name": 1
+    },
+    "optimize_module": {
+      "Not(Call)": 1
+    },
+    "optimize": {
+      "AttributeNotInAttribute": 1
+    },
+    "optimize_file": {
+      "Name": 1
+    },
+    "register_runtime_modules": {
+      "(CallAndCall)": 1,
+      "(CallAndStrInVar(data))": 1
+    },
+    "analyze_directory": {
+      "Call": 1
+    },
+    "save_patterns": {
+      "Var(output_file)IsNone": 1
+    },
+    "_extract_patterns": {
+      "Call": 3,
+      "Name": 3
+    },
+    "_serialize_condition": {
+      "Call": 2,
+      "(CallAndCall)": 1
+    },
+    "_get_node_type": {
+      "Call": 3,
+      "(CallAndAttributeInTuple)": 1
+    },
+    "__init__": {
+      "(NameAndCall)": 1
+    },
+    "inject_tokens": {
+      "Var(output_file)IsNone": 1
+    },
+    "_monitor_loop": {
+      "(SubscriptGtNum(int)AndBinOpGtNum(int))": 1
+    },
+    "_optimize_function": {
+      "Var(func_name)NotInAttribute": 1
+    },
+    "route": {
+      "Var(func_name)InAttribute": 1,
+      "(AttributeAndCall)": 1
+    },
+    "wrapper": {
+      "AttributeNotInAttribute": 1
+    },
+    "process": {
+      "Call": 1,
+      "(CallAndCallGtNum(int))": 1,
+      "(Var(function_name)IsNoneAndCallEqNum(int))": 1,
+      "Name": 1
+    },
+    "run_pipeline": {
+      "Var(source_code)IsNone": 1,
+      "(Var(function_name)IsNoneAndCallEqNum(int))": 1,
+      "Name": 1
+    },
+    "run_ui": {
+      "Var(function_type)EqStr": 4,
+      "Call": 10,
+      "(CallAndStrNotInAttribute)": 1,
+      "Var(uploaded_file)IsNotNone": 1,
+      "Name": 2
+    }
+  },
+  "timestamp": 1747030392.2696962
+}

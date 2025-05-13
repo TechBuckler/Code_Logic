@@ -1,0 +1,18 @@
+2025-05-12 19:38:25,914 - datasets - INFO - PyTorch version 2.6.0 available.
+2025-05-12 19:38:27,687 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-05-12 19:38:27,687 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-05-12 19:38:28,891 - shadow_embeddings - INFO - Loaded embeddings model successfully
+2025-05-12 19:38:28,925 - enhanced_shadow_validator - INFO - Using rule-based validation for 67acf5d790f41944ffff6e24ac7c3603
+2025-05-12 19:38:28,932 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-05-12 19:38:28,933 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-05-12 19:38:29,382 - shadow_embeddings - INFO - Loaded embeddings model successfully
+2025-05-12 19:38:29,383 - complexity_analyzer - ERROR - Error analyzing file complexity: 'charmap' codec can't decode byte 0x8f in position 22288: character maps to <undefined>
+2025-05-12 19:38:29,386 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-05-12 19:38:29,386 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-05-12 19:38:29,726 - shadow_embeddings - INFO - Loaded embeddings model successfully
+2025-05-12 19:38:29,771 - enhanced_shadow_validator - INFO - Using rule-based validation for 40ea006ce44a9611a4d4c9f79913b683
+2025-05-12 19:38:29,781 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-05-12 19:38:29,781 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-05-12 19:38:30,033 - shadow_embeddings - INFO - Loaded embeddings model successfully
+2025-05-12 19:38:30,041 - enhanced_shadow_validator - INFO - Rule-based validation found critical issues for 0023eef891d954410bad653f23f069e5
+2025-05-12 19:38:30,044 - complexity_analyzer - ERROR - Error analyzing code complexity: invalid syntax (<unknown>, line 26)

@@ -1,0 +1,214 @@
+{
+  "timestamp": "2025-05-12T10:19:17.897318",
+  "project_root": "C:\\Users\\timge\\Downloads\\code_logic_tool_full",
+  "summary": {
+    "files": 199,
+    "total_loc": 21265,
+    "avg_complexity": 22.321608040201006,
+    "files_with_unused_imports": 102,
+    "files_with_complex_functions": 87,
+    "total_complex_functions": 205,
+    "total_unused_imports": 411
+  },
+  "top_complex_files": [
+    {
+      "file": "refactor_builder.py",
+      "loc": 471,
+      "complexity": 156,
+      "complex_functions": 4
+    },
+    {
+      "file": "tools\\shadow_tree\\navigator.py",
+      "loc": 609,
+      "complexity": 120,
+      "complex_functions": 5
+    },
+    {
+      "file": "tools\\shadow_tree.py",
+      "loc": 600,
+      "complexity": 119,
+      "complex_functions": 5
+    },
+    {
+      "file": "refactor_splitter.py",
+      "loc": 416,
+      "complexity": 118,
+      "complex_functions": 5
+    },
+    {
+      "file": "refactor_analyzer.py",
+      "loc": 391,
+      "complexity": 114,
+      "complex_functions": 7
+    },
+    {
+      "file": "tools\\fractal_organizer.py",
+      "loc": 371,
+      "complexity": 91,
+      "complex_functions": 5
+    },
+    {
+      "file": "tools\\fractal\\fractal_organizer.py",
+      "loc": 371,
+      "complexity": 91,
+      "complex_functions": 5
+    },
+    {
+      "file": "tools\\fractal\\organizer.py",
+      "loc": 371,
+      "complexity": 91,
+      "complex_functions": 5
+    },
+    {
+      "file": "legacy\\src\\modules\\optimization_testbed_module.py",
+      "loc": 385,
+      "complexity": 86,
+      "complex_functions": 7
+    },
+    {
+      "file": "modules\\standard\\analysis\\optimization_testbed_module.py",
+      "loc": 385,
+      "complexity": 86,
+      "complex_functions": 7
+    }
+  ],
+  "top_complex_functions": [
+    {
+      "file": "refactor_builder.py",
+      "function": "rebuild_from_parts",
+      "loc": 0,
+      "complexity": 33
+    },
+    {
+      "file": "refactor_builder.py",
+      "function": "_generate_import_statements",
+      "loc": 0,
+      "complexity": 31
+    },
+    {
+      "file": "summarize_codebase.py",
+      "function": "summarize_codebase",
+      "loc": 0,
+      "complexity": 31
+    },
+    {
+      "file": "legacy\\src\\ui_renderers_part2.py",
+      "function": "render_module_explorer",
+      "loc": 0,
+      "complexity": 30
+    },
+    {
+      "file": "ui\\renderers\\advanced.py",
+      "function": "render_module_explorer",
+      "loc": 0,
+      "complexity": 30
+    },
+    {
+      "file": "legacy\\src\\ui_renderers_part2.py",
+      "function": "render_project_organizer",
+      "loc": 0,
+      "complexity": 29
+    },
+    {
+      "file": "ui\\renderers\\advanced.py",
+      "function": "render_project_organizer",
+      "loc": 0,
+      "complexity": 29
+    },
+    {
+      "file": "legacy\\src\\ui_renderers_part2.py",
+      "function": "render_optimization_testbed",
+      "loc": 0,
+      "complexity": 28
+    },
+    {
+      "file": "tools\\fractal_organizer.py",
+      "function": "split_file",
+      "loc": 0,
+      "complexity": 28
+    },
+    {
+      "file": "tools\\fractal\\fractal_organizer.py",
+      "function": "split_file",
+      "loc": 0,
+      "complexity": 28
+    },
+    {
+      "file": "tools\\fractal\\organizer.py",
+      "function": "split_file",
+      "loc": 0,
+      "complexity": 28
+    },
+    {
+      "file": "ui\\renderers\\advanced.py",
+      "function": "render_optimization_testbed",
+      "loc": 0,
+      "complexity": 28
+    },
+    {
+      "file": "document_codebase.py",
+      "function": "document_codebase",
+      "loc": 0,
+      "complexity": 24
+    },
+    {
+      "file": "refactor_builder.py",
+      "function": "apply_fixes",
+      "loc": 0,
+      "complexity": 24
+    },
+    {
+      "file": "legacy\\src\\bootstrap.py",
+      "function": "_generate_module_hierarchy",
+      "loc": 0,
+      "complexity": 23
+    },
+    {
+      "file": "tools\\logic_tool.py",
+      "function": "main",
+      "loc": 0,
+      "complexity": 22
+    },
+    {
+      "file": "tools\\resource_splitter.py",
+      "function": "extract_functions",
+      "loc": 0,
+      "complexity": 22
+    },
+    {
+      "file": "tools\\run_cli.py",
+      "function": "main",
+      "loc": 0,
+      "complexity": 22
+    },
+    {
+      "file": "tools\\reorganization\\complete_cleanup.py",
+      "function": "handle_templates_dir",
+      "loc": 0,
+      "complexity": 22
+    },
+    {
+      "file": "tools\\resource\\splitter.py",
+      "function": "extract_functions",
+      "loc": 0,
+      "complexity": 22
+    }
+  ],
+  "refactoring_recommendations": [
+    {
+      "file": "cleanup_critical_issues.py",
+      "recommendation": "Split complex functions",
+      "functions": [
+        "cleanup_critical_issues"
+      ],
+      "priority": "medium"
+    },
+    {
+      "file": "cleanup_critical_issues.py",
+      "recommendation": "Remove unused imports",
+      "imports": [
+        {
+          "name": "time",
+          "alias": "time",
+          "lineno": 20,
+          "node": 
