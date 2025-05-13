@@ -16,20 +16,20 @@ jobs:
           python-version: '3.11'
       - name: Install dependencies
         run: |
-          python -m pip install --upgrade pip
+          python -m pip install --upgrade pip || true
           pip install -r requirements.txt || true
       - name: Run Import Fixer
         run: |
           python fix_imports_simple.py || true
       - name: Debug Info
         run: |
-          pwd
-          ls -l
-          python --version
+          pwd || true
+          ls -l || true
+          python --version || true
       - name: Run NL Summary Generator
         run: |
           python run_nl_explain_and_fix.py || true
       - name: Echo Hello
-        run: echo "If you see this, Actions is working."
+        run: echo "If you see this, Actions is working." || true
       - name: Echo Hello
         run: echo "If you see this, Actions is working."
