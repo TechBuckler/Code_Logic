@@ -3,12 +3,10 @@ name: Codebase Mapping and Validation
 on:
   push:
     branches: [ main ]
-  pull_request:
-    branches: [ main ]
 
 jobs:
   codebase-map:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-latest
     steps:
       - name: Echo Test
         run: echo "Hello from Codebase Mapping and Validation!"
