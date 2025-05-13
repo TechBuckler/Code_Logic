@@ -6,10 +6,16 @@ on:
 
 jobs:
   codebase-map:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     steps:
       - name: Echo Test
         run: echo "Hello from Codebase Mapping and Validation!"
+      - name: Checkout repository
+        uses: actions/checkout@v3.5.3
+      - name: Set up Python
+        uses: actions/setup-python@v4.7.1
+        with:
+          python-version: '3.11'
 
       - name: Checkout repository
         uses: actions/checkout@v3.5.3
