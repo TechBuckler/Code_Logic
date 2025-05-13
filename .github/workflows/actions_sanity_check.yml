@@ -1,0 +1,12 @@
+name: Actions Sanity Check
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  actions-sanity:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Echo Hello
+        run: echo "If you see this, Actions is working."
