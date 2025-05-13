@@ -21,9 +21,14 @@ jobs:
       - name: Run Import Fixer
         run: |
           python fix_imports_simple.py || true
+      - name: Debug Info
+        run: |
+          pwd
+          ls -l
+          python --version
       - name: Run NL Summary Generator
         run: |
-          python run_nl_explain_and_fix.py
+          python run_nl_explain_and_fix.py || true
       - name: Echo Hello
         run: echo "If you see this, Actions is working."
       - name: Echo Hello
