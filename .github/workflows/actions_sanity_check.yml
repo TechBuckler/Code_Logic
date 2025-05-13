@@ -28,7 +28,7 @@ jobs:
           python --version || true
       - name: Run NL Summary Generator
         run: |
-          python run_nl_explain_and_fix.py || true
+          python run_nl_explain_and_fix.py
       - name: Echo Hello
         run: echo "If you see this, Actions is working." || true
       - name: Echo Hello
